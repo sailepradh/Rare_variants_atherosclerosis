@@ -1,0 +1,1 @@
+ ## Data goes here and since the data is mostly confusing I will try to make myself understand data structure.
