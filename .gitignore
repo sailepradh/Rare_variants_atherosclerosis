@@ -9,8 +9,8 @@
 *.dll.config
 *.cache
 *.suo
-tmp/
-# Include dlls if they’re in the NuGet packages directory
+*.bed
+Include dlls if they’re in the NuGet packages directory
 !/packages/*/lib/*.dll
 # Include dlls if they're in the CommonReferences directory
 !*CommonReferences/*.dll
