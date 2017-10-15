@@ -1,0 +1,998 @@
+GO:0030032	lamellipodium assembly	2	1	2.0	12	ABLIM1
+GO:0060271	cilium assembly	4	3	1.33	103	ABLIM1,ABCC4,IFT74
+GO:0000122	negative regulation of transcription from RNA polymerase II promoter	51	20	2.55	489	ARID5B,DKK1,TAF3,ZEB1,CCND1,BHLHE41,MEF2A,SMAD3,TGIF1,GZF1,BCL6,DLG1,FNIP1,HDAC3,NIPBL,EDN1,SNAI2,DAB2IP,NFIB,KLF8
+GO:0051091	positive regulation of sequence-specific DNA binding transcription factor activity	11	3	3.67	80	ARID5B,DDR2,EDN1
+GO:0001666	response to hypoxia	4	3	1.33	67	DDIT4,SMAD3,ADAM17
+GO:0032007	negative regulation of TOR signaling	1	1	1.0	17	DDIT4
+GO:0051607	defense response to virus	5	3	1.67	101	DDIT4,ISG15,PLSCR1
+GO:0002090	regulation of receptor internalization	2	1	2.0	3	DKK1
+GO:0030178	negative regulation of Wnt signaling pathway	2	1	2.0	30	DKK1
+GO:0032091	negative regulation of protein binding	7	4	1.75	52	DKK1,USP33,PDGFB,CAMK1
+GO:0033137	negative regulation of peptidyl-serine phosphorylation	2	1	2.0	14	DKK1
+GO:0042662	negative regulation of mesodermal cell fate specification	2	1	2.0	1	DKK1
+GO:0042663	regulation of endodermal cell fate specification	2	1	2.0	1	DKK1
+GO:0043507	positive regulation of JUN kinase activity	9	4	2.25	24	DKK1,RPS3,EDN1,DAB2IP
+GO:0060394	negative regulation of pathway-restricted SMAD protein phosphorylation	4	3	1.33	15	DKK1,SMAD6,LDLRAD4
+GO:0090090	negative regulation of canonical Wnt signaling pathway	9	4	2.25	112	DKK1,MCC,SNAI2,DAB2IP
+GO:1901296	negative regulation of canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment	2	1	2.0	1	DKK1
+GO:1904723	negative regulation of Wnt-Frizzled-LRP5/6 complex assembly	2	1	2.0	3	DKK1
+GO:2000726	negative regulation of cardiac muscle cell differentiation	2	1	2.0	5	DKK1
+GO:0036138	peptidyl-histidine hydroxylation	1	1	1.0	1	HIF1AN
+GO:0042264	peptidyl-aspartic acid hydroxylation	1	1	1.0	1	HIF1AN
+GO:0042265	peptidyl-asparagine hydroxylation	1	1	1.0	5	HIF1AN
+GO:0045663	positive regulation of myoblast differentiation	2	2	1.0	8	HIF1AN,IGFBP3
+GO:0045746	negative regulation of Notch signaling pathway	1	1	1.0	15	HIF1AN
+GO:0055114	oxidation-reduction process	2	2	1.0	98	HIF1AN,MICAL2
+GO:0061428	negative regulation of transcription from RNA polymerase II promoter in response to hypoxia	1	1	1.0	4	HIF1AN
+GO:0001921	positive regulation of receptor recycling	1	1	1.0	8	INPP5F
+GO:0042532	negative regulation of tyrosine phosphorylation of STAT protein	1	1	1.0	11	INPP5F
+GO:0046856	phosphatidylinositol dephosphorylation	2	2	1.0	21	INPP5F,INPP5B
+GO:2000145	regulation of cell motility	1	1	1.0	6	INPP5F
+GO:2001135	regulation of endocytic recycling	1	1	1.0	1	INPP5F
+GO:0045163	clustering of voltage-gated potassium channels	2	1	2.0	1	KCNIP2
+GO:0071435	potassium ion export	2	1	2.0	14	KCNIP2
+GO:0071805	potassium ion transmembrane transport	3	2	1.5	64	KCNIP2,LRRC55
+GO:0086009	membrane repolarization	2	1	2.0	9	KCNIP2
+GO:0097623	potassium ion export across plasma membrane	2	1	2.0	4	KCNIP2
+GO:0045892	negative regulation of transcription, DNA-templated	41	17	2.41	442	LDB1,ZEB1,RARA,GZF1,PDGFB,LIMS1,ZC3H8,BCL6,FOXP1,MECOM,TP63,DAP,HDAC3,NIPBL,NRG1,RUNX1T1,DAB2IP
+GO:0045944	positive regulation of transcription from RNA polymerase II promoter	64	24	2.67	965	LDB1,MLLT10,LMO2,ZNF143,KMT2D,MEF2A,SMAD3,RARA,IER5,BMPR2,FOSL2,HOXD3,CAMK1,PLSCR1,TP63,MAML3,FGF1,HDAC3,EDN1,MET,CREB3,DAB2IP,NFIB,NR4A3
+GO:0032981	mitochondrial respiratory chain complex I assembly	2	2	1.0	52	NDUFB8,NDUFB6
+GO:0043433	negative regulation of sequence-specific DNA binding transcription factor activity	5	2	2.5	49	TAF3,TRIB1
+GO:0051457	maintenance of protein location in nucleus	3	2	1.5	12	TAF3,SUPT7L
+GO:0030488	tRNA methylation	1	1	1.0	6	TRDMT1
+GO:0045747	positive regulation of Notch signaling pathway	3	2	1.5	10	TSPAN14,TP63
+GO:0051604	protein maturation	2	1	2.0	6	TSPAN14
+GO:0072659	protein localization to plasma membrane	5	3	1.67	84	TSPAN14,DLG1,EFR3A
+GO:0014068	positive regulation of phosphatidylinositol 3-kinase signaling	3	2	1.5	37	UNC5B,PDGFB
+GO:0043524	negative regulation of neuron apoptotic process	1	1	1.0	34	UNC5B
+GO:2001240	negative regulation of extrinsic apoptotic signaling pathway in absence of ligand	2	2	1.0	16	UNC5B,NRG1
+GO:0045602	negative regulation of endothelial cell differentiation	1	1	1.0	2	ZEB1
+GO:0001942	hair follicle development	1	1	1.0	6	ALX4
+GO:0043066	negative regulation of apoptotic process	15	10	1.5	291	API5,PRDX5,SMAD6,THBS1,ZFAND6,CARD14,PAK2,PKHD1,RNF144B,ARMC10
+GO:0000082	G1/S transition of mitotic cell cycle	3	2	1.5	26	CCND1,PLK2
+GO:0001934	positive regulation of protein phosphorylation	8	5	1.6	113	CCND1,CARD14,ADAM17,FNIP1,HDAC3
+GO:0006974	cellular response to DNA damage stimulus	12	9	1.33	218	CCND1,RNF169,RPS3,SUSD6,TANK,BCL6,TP63,ERCC8,NIPBL
+GO:0010971	positive regulation of G2/M transition of mitotic cell cycle	3	2	1.5	14	CCND1,VPS4B
+GO:0031571	mitotic G1 DNA damage checkpoint	2	1	2.0	7	CCND1
+GO:0042493	response to drug	11	5	2.2	47	CCND1,SRP54,THBS1,HTR2B,TGFBR2
+GO:0044321	response to leptin	2	1	2.0	2	CCND1
+GO:0045737	positive regulation of cyclin-dependent protein serine/threonine kinase activity	4	2	2.0	8	CCND1,PDGFB
+GO:0070141	response to UV-A	2	1	2.0	3	CCND1
+GO:0071157	negative regulation of cell cycle arrest	2	1	2.0	19	CCND1
+GO:0006388	tRNA splicing, via endonucleolytic cleavage and ligation	1	1	1.0	10	CLP1
+GO:0021695	cerebellar cortex development	1	1	1.0	2	CLP1
+GO:0030423	targeting of mRNA for destruction involved in RNA interference	1	1	1.0	5	CLP1
+GO:0035087	siRNA loading onto RISC involved in RNA interference	1	1	1.0	4	CLP1
+GO:0019074	viral RNA genome packaging	1	1	1.0	2	DDX6
+GO:0033962	cytoplasmic mRNA processing body assembly	1	1	1.0	6	DDX6
+GO:0042789	mRNA transcription from RNA polymerase II promoter	2	1	2.0	8	LMO2
+GO:0097067	cellular response to thyroid hormone stimulus	4	2	2.0	9	LMO2,KLF9
+GO:1903818	positive regulation of voltage-gated potassium channel activity	1	1	1.0	4	LRRC55
+GO:0007010	cytoskeleton organization	2	2	1.0	41	MICAL2,MICAL3
+GO:0010735	positive regulation of transcription via serum response element binding	1	1	1.0	4	MICAL2
+GO:0030042	actin filament depolymerization	2	2	1.0	7	MICAL2,MICAL3
+GO:0000737	DNA catabolic process, endonucleolytic	2	1	2.0	5	MUS81
+GO:0006281	DNA repair	3	2	1.5	62	MUS81,ERCC4
+GO:0072429	response to intra-S DNA damage checkpoint signaling	2	1	2.0	4	MUS81
+GO:0006897	endocytosis	3	2	1.5	24	PIK3C2A,SNX18
+GO:0006979	response to oxidative stress	3	3	1.0	40	PRDX5,RPS3,ERCC8
+GO:0016480	negative regulation of transcription from RNA polymerase III promoter	1	1	1.0	3	PRDX5
+GO:0032967	positive regulation of collagen biosynthetic process	1	1	1.0	14	PRDX5
+GO:0034614	cellular response to reactive oxygen species	3	2	1.5	25	PRDX5,PDK2
+GO:0042744	hydrogen peroxide catabolic process	1	1	1.0	13	PRDX5
+GO:0051354	negative regulation of oxidoreductase activity	1	1	1.0	6	PRDX5
+GO:0060785	regulation of apoptosis involved in tissue homeostasis	1	1	1.0	1	PRDX5
+GO:0070995	NADPH oxidation	1	1	1.0	4	PRDX5
+GO:2001057	reactive nitrogen species metabolic process	1	1	1.0	1	PRDX5
+GO:0001933	negative regulation of protein phosphorylation	4	3	1.33	30	PRR5L,IGFBP3,DAB2IP
+GO:0010762	regulation of fibroblast migration	1	1	1.0	1	PRR5L
+GO:0034599	cellular response to oxidative stress	1	1	1.0	37	PRR5L
+GO:0038203	TORC2 signaling	1	1	1.0	1	PRR5L
+GO:0061014	positive regulation of mRNA catabolic process	1	1	1.0	10	PRR5L
+GO:0090316	positive regulation of intracellular protein transport	1	1	1.0	15	PRR5L
+GO:0006139	nucleobase-containing compound metabolic process	1	1	1.0	3	REXO2
+GO:2000780	negative regulation of double-strand break repair	1	1	1.0	7	RNF169
+GO:0001525	angiogenesis	9	5	1.8	56	ROBO4,CALCRL,EMCN,EPGN,C1GALT1
+GO:0007059	chromosome segregation	3	3	1.0	43	RPS3,PMF1,NTMT1
+GO:0010628	positive regulation of gene expression	11	6	1.83	268	RPS3,SMAD3,PDGFB,HOXD3,LIMS1,PLSCR1
+GO:0017148	negative regulation of translation	1	1	1.0	43	RPS3
+GO:0031116	positive regulation of microtubule polymerization	4	2	2.0	17	RPS3,MET
+GO:0031334	positive regulation of protein complex assembly	2	2	1.0	23	RPS3,FNIP1
+GO:0031397	negative regulation of protein ubiquitination	2	2	1.0	29	RPS3,ISG15
+GO:0032079	positive regulation of endodeoxyribonuclease activity	1	1	1.0	4	RPS3
+GO:0032743	positive regulation of interleukin-2 production	7	3	2.33	9	RPS3,PDE4B,PDE4D
+GO:0042104	positive regulation of activated T cell proliferation	1	1	1.0	16	RPS3
+GO:0042769	DNA damage response, detection of DNA damage	1	1	1.0	7	RPS3
+GO:0042981	regulation of apoptotic process	4	2	2.0	46	RPS3,CREB3
+GO:0045738	negative regulation of DNA repair	1	1	1.0	1	RPS3
+GO:0045739	positive regulation of DNA repair	2	2	1.0	38	RPS3,ERCC8
+GO:0050862	positive regulation of T cell receptor signaling pathway	2	2	1.0	7	RPS3,CD226
+GO:0051092	positive regulation of NF-kappaB transcription factor activity	4	2	2.0	139	RPS3,CARD14
+GO:0051225	spindle assembly	3	3	1.0	25	RPS3,HAUS4,HDAC3
+GO:0061481	response to TNF agonist	1	1	1.0	1	RPS3
+GO:0070301	cellular response to hydrogen peroxide	1	1	1.0	22	RPS3
+GO:0071356	cellular response to tumor necrosis factor	5	4	1.25	53	RPS3,ZFAND6,TANK,DAB2IP
+GO:1901224	positive regulation of NIK/NF-kappaB signaling	2	2	1.0	16	RPS3,LIMS1
+GO:1902231	positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage	1	1	1.0	3	RPS3
+GO:1902546	positive regulation of DNA N-glycosylase activity	1	1	1.0	1	RPS3
+GO:1905053	positive regulation of base-excision repair	1	1	1.0	2	RPS3
+GO:2001235	positive regulation of apoptotic signaling pathway	3	2	1.5	10	RPS3,DAB2IP
+GO:2001272	positive regulation of cysteine-type endopeptidase activity involved in execution phase of apoptosis	1	1	1.0	1	RPS3
+GO:0002682	regulation of immune system process	1	1	1.0	1	SIAE
+GO:0005975	carbohydrate metabolic process	3	3	1.0	8	SIAE,CS,RPE
+GO:0006468	protein phosphorylation	26	12	2.17	256	SIK3,WNK1,RARA,PRKACB,PDGFB,CAMK1,PAK2,SNRK,TGFBR2,PLK2,IGFBP3,STK17A
+GO:0006302	double-strand break repair	1	1	1.0	61	TNKS1BP1
+GO:0010800	positive regulation of peptidyl-threonine phosphorylation	1	1	1.0	21	TNKS1BP1
+GO:0031954	positive regulation of protein autophosphorylation	3	2	1.5	14	TNKS1BP1,PDGFB
+GO:0033138	positive regulation of peptidyl-serine phosphorylation	3	3	1.0	64	TNKS1BP1,CAMK1,FNIP1
+GO:0071479	cellular response to ionizing radiation	2	2	1.0	28	TNKS1BP1,TANK
+GO:0006858	extracellular transport	2	1	2.0	3	TSG101
+GO:0007175	negative regulation of epidermal growth factor-activated receptor activity	2	1	2.0	9	TSG101
+GO:0042059	negative regulation of epidermal growth factor receptor signaling pathway	2	1	2.0	8	TSG101
+GO:0043162	ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway	3	2	1.5	11	TSG101,VPS4B
+GO:0043405	regulation of MAP kinase activity	5	2	2.5	7	TSG101,TRIB1
+GO:0046755	viral budding	2	1	2.0	6	TSG101
+GO:0048524	positive regulation of viral process	3	2	1.5	6	TSG101,VPS4B
+GO:1902186	regulation of viral release from host cell	2	1	2.0	7	TSG101
+GO:1902188	positive regulation of viral release from host cell	3	2	1.5	20	TSG101,VPS4B
+GO:1903543	positive regulation of exosomal secretion	3	2	1.5	16	TSG101,VPS4B
+GO:1903551	regulation of extracellular exosome assembly	2	1	2.0	3	TSG101
+GO:1903772	regulation of viral budding via host ESCRT complex	2	1	2.0	3	TSG101
+GO:1903774	positive regulation of viral budding via host ESCRT complex	2	1	2.0	5	TSG101
+GO:0002543	activation of blood coagulation via clotting cascade	1	1	1.0	1	ANO6
+GO:0006812	cation transport	1	1	1.0	13	ANO6
+GO:0006821	chloride transport	1	1	1.0	29	ANO6
+GO:0017121	phospholipid scrambling	4	2	2.0	5	ANO6,PLSCR1
+GO:0030501	positive regulation of bone mineralization	2	2	1.0	25	ANO6,BMPR2
+GO:0032060	bleb assembly	6	2	3.0	7	ANO6,EMP1
+GO:0034767	positive regulation of ion transmembrane transport	1	1	1.0	3	ANO6
+GO:0035590	purinergic nucleotide receptor signaling pathway	1	1	1.0	3	ANO6
+GO:0035725	sodium ion transmembrane transport	1	1	1.0	32	ANO6
+GO:0045794	negative regulation of cell volume	1	1	1.0	4	ANO6
+GO:0046931	pore complex assembly	1	1	1.0	5	ANO6
+GO:0070588	calcium ion transmembrane transport	1	1	1.0	25	ANO6
+GO:0090026	positive regulation of monocyte chemotaxis	4	2	2.0	22	ANO6,CREB3
+GO:0097045	phosphatidylserine exposure on blood platelet	1	1	1.0	1	ANO6
+GO:1902476	chloride transmembrane transport	1	1	1.0	23	ANO6
+GO:2000353	positive regulation of endothelial cell apoptotic process	3	2	1.5	11	ANO6,THBS1
+GO:0042476	odontogenesis	3	1	3.0	17	AQP6
+GO:0000045	autophagosome assembly	3	2	1.5	22	ATG101,STX12
+GO:0001895	retina homeostasis	3	2	1.5	36	BBS10,B2M
+GO:0043254	regulation of protein complex assembly	4	2	2.0	12	BBS10,DAB2IP
+GO:0045494	photoreceptor cell maintenance	2	1	2.0	14	BBS10
+GO:0051131	chaperone-mediated protein complex assembly	2	1	2.0	11	BBS10
+GO:1905515	non-motile cilium assembly	3	2	1.5	14	BBS10,DISC1
+GO:0031638	zymogen activation	1	1	1.0	11	C1R
+GO:0006898	receptor-mediated endocytosis	1	1	1.0	32	CLEC9A
+GO:0050715	positive regulation of cytokine secretion	1	1	1.0	15	CLEC9A
+GO:0006935	chemotaxis	1	1	1.0	16	CMKLR1
+GO:0007186	G-protein coupled receptor signaling pathway	7	4	1.75	88	CMKLR1,TGM2,HTR2B,EDN1
+GO:0010759	positive regulation of macrophage chemotaxis	1	1	1.0	6	CMKLR1
+GO:0032088	negative regulation of NF-kappaB transcription factor activity	6	5	1.2	74	CMKLR1,COMMD6,DAP,PKHD1,DAB2IP
+GO:0050848	regulation of calcium-mediated signaling	1	1	1.0	5	CMKLR1
+GO:0033617	mitochondrial respiratory chain complex IV assembly	2	1	2.0	8	COX14
+GO:0016311	dephosphorylation	8	3	2.67	28	DUSP16,PTPRB,DUSP4
+GO:0008219	cell death	8	3	2.67	22	EMP1,SUSD6,VAPA
+GO:0006508	proteolysis	3	3	1.0	143	ENDOU,ADAM17,RNPEPL1
+GO:0007565	female pregnancy	1	1	1.0	8	ENDOU
+GO:0035336	long-chain fatty-acyl-CoA metabolic process	2	1	2.0	4	FAR2
+GO:0060395	SMAD protein signal transduction	1	1	1.0	19	GDF11
+GO:0008284	positive regulation of cell proliferation	22	11	2.0	330	KMT2D,THBS1,RARA,PDGFB,ADAM17,HTR2B,EPGN,FGF1,EDN1,PKHD1,NRG1
+GO:0033148	positive regulation of intracellular estrogen receptor signaling pathway	1	1	1.0	4	KMT2D
+GO:0043627	response to estrogen	1	1	1.0	20	KMT2D
+GO:0030835	negative regulation of actin filament depolymerization	1	1	1.0	1	LIMA1
+GO:0031529	ruffle organization	1	1	1.0	8	LIMA1
+GO:0051017	actin filament bundle assembly	1	1	1.0	11	LIMA1
+GO:0019370	leukotriene biosynthetic process	4	1	4.0	10	LTA4H
+GO:0043171	peptide catabolic process	4	1	4.0	9	LTA4H
+GO:0044267	cellular protein metabolic process	4	1	4.0	2	LTA4H
+GO:0006406	mRNA export from nucleus	1	1	1.0	33	NUP107
+GO:0008585	female gonad development	1	1	1.0	3	NUP107
+GO:0051292	nuclear pore complex assembly	1	1	1.0	12	NUP107
+GO:0002590	negative regulation of antigen processing and presentation of peptide antigen via MHC class I	3	1	3.0	1	TAPBPL
+GO:0070129	regulation of mitochondrial translation	1	1	1.0	6	TSFM
+GO:0010923	negative regulation of phosphatase activity	2	2	1.0	52	WNK1,FKBP15
+GO:0023016	signal transduction by trans-phosphorylation	1	1	1.0	3	WNK1
+GO:0035556	intracellular signal transduction	5	2	2.5	75	WNK1,STK17A
+GO:0032310	prostaglandin secretion	1	1	1.0	3	ABCC4
+GO:0070979	protein K11-linked ubiquitination	6	2	3.0	31	CDC16,ANAPC13
+GO:0043542	endothelial cell migration	1	1	1.0	19	STARD13
+GO:0090051	negative regulation of cell migration involved in sprouting angiogenesis	1	1	1.0	12	STARD13
+GO:0097498	endothelial tube lumen extension	1	1	1.0	3	STARD13
+GO:0030218	erythrocyte differentiation	1	1	1.0	17	ACIN1
+GO:0030263	apoptotic chromosome condensation	1	1	1.0	4	ACIN1
+GO:0043065	positive regulation of apoptotic process	14	8	1.75	199	ACIN1,TGM2,BCL6,TNFAIP8,IGFBP3,ING3,STK17A,DAB2IP
+GO:0045657	positive regulation of monocyte differentiation	1	1	1.0	7	ACIN1
+GO:0048025	negative regulation of mRNA splicing, via spliceosome	1	1	1.0	12	ACIN1
+GO:0007098	centrosome cycle	1	1	1.0	31	HAUS4
+GO:0045727	positive regulation of translation	4	3	1.33	37	SAMD4A,THBS1,PRR16
+GO:0006865	amino acid transport	4	1	4.0	4	SLC7A8
+GO:0045047	protein targeting to ER	1	1	1.0	2	SRP54
+GO:0002726	positive regulation of T cell cytokine production	1	1	1.0	7	B2M
+GO:0003254	regulation of membrane depolarization	2	2	1.0	7	B2M,FHL1
+GO:0019731	antibacterial humoral response	1	1	1.0	49	B2M
+GO:0019885	antigen processing and presentation of endogenous peptide antigen via MHC class I	1	1	1.0	5	B2M
+GO:0032092	positive regulation of protein binding	3	2	1.5	43	B2M,USP33
+GO:0045087	innate immune response	1	1	1.0	85	B2M
+GO:0048260	positive regulation of receptor-mediated endocytosis	1	1	1.0	15	B2M
+GO:0050829	defense response to Gram-negative bacterium	1	1	1.0	97	B2M
+GO:0050830	defense response to Gram-positive bacterium	2	2	1.0	127	B2M,ADAM17
+GO:0061844	antimicrobial humoral immune response mediated by antimicrobial peptide	2	2	1.0	141	B2M,LEAP2
+GO:0071222	cellular response to lipopolysaccharide	3	2	1.5	63	B2M,DAB2IP
+GO:0071281	cellular response to iron ion	1	1	1.0	5	B2M
+GO:1900121	negative regulation of receptor binding	1	1	1.0	5	B2M
+GO:1900122	positive regulation of receptor binding	1	1	1.0	6	B2M
+GO:1904434	positive regulation of ferrous iron binding	1	1	1.0	2	B2M
+GO:1904437	positive regulation of transferrin receptor binding	1	1	1.0	2	B2M
+GO:1904440	positive regulation of ferrous iron import across plasma membrane	1	1	1.0	3	B2M
+GO:0031647	regulation of protein stability	2	2	1.0	57	DPH6,HDAC3
+GO:1903955	positive regulation of protein targeting to mitochondrion	3	3	1.0	85	DPH6,CTSK,NRG1
+GO:0007173	epidermal growth factor receptor signaling pathway	3	3	1.0	22	IQGAP1,ADAM17,HBEGF
+GO:0045860	positive regulation of protein kinase activity	3	2	1.5	35	IQGAP1,DDR2
+GO:0071277	cellular response to calcium ion	4	2	2.0	30	IQGAP1,MEF2A
+GO:0071364	cellular response to epidermal growth factor stimulus	5	2	2.5	21	IQGAP1,SNAI2
+GO:1990138	neuron projection extension	1	1	1.0	5	IQGAP1
+GO:0000165	MAPK cascade	3	1	3.0	34	MEF2A
+GO:0006351	transcription, DNA-templated	10	4	2.5	33	MEF2A,HOXD3,GTF3C6,CREB3
+GO:0007507	heart development	3	1	3.0	37	MEF2A
+GO:0010613	positive regulation of cardiac muscle hypertrophy	7	2	3.5	12	MEF2A,EDN1
+GO:0070375	ERK5 cascade	3	1	3.0	1	MEF2A
+GO:0006357	regulation of transcription from RNA polymerase II promoter	2	1	2.0	77	SMAD3
+GO:0006810	transport	2	1	2.0	9	SMAD3
+GO:0006919	activation of cysteine-type endopeptidase activity involved in apoptotic process	5	3	1.67	52	SMAD3,DAP,DLC1
+GO:0006955	immune response	5	3	1.67	28	SMAD3,SMAD6,THBS1
+GO:0007050	cell cycle arrest	4	2	2.0	52	SMAD3,THBS1
+GO:0007179	transforming growth factor beta receptor signaling pathway	7	2	3.5	56	SMAD3,TGFBR2
+GO:0007183	SMAD protein complex assembly	2	1	2.0	9	SMAD3
+GO:0010718	positive regulation of epithelial to mesenchymal transition	7	2	3.5	36	SMAD3,TGFBR2
+GO:0017015	regulation of transforming growth factor beta receptor signaling pathway	2	1	2.0	12	SMAD3
+GO:0019049	evasion or tolerance of host defenses by virus	2	1	2.0	2	SMAD3
+GO:0030308	negative regulation of cell growth	9	5	1.8	98	SMAD3,BMPR2,BCL6,DCBLD2,FHL1
+GO:0032909	regulation of transforming growth factor beta2 production	2	1	2.0	4	SMAD3
+GO:0032924	activin receptor signaling pathway	2	1	2.0	17	SMAD3
+GO:0038092	nodal signaling pathway	2	1	2.0	5	SMAD3
+GO:0042993	positive regulation of transcription factor import into nucleus	3	2	1.5	14	SMAD3,HDAC3
+GO:0045216	cell-cell junction organization	2	1	2.0	9	SMAD3
+GO:0045429	positive regulation of nitric oxide biosynthetic process	2	1	2.0	18	SMAD3
+GO:0045599	negative regulation of fat cell differentiation	2	1	2.0	10	SMAD3
+GO:0045893	positive regulation of transcription, DNA-templated	27	7	3.86	578	SMAD3,RARA,TCF4,PDGFB,MECOM,TP63,CREB3
+GO:0045930	negative regulation of mitotic cell cycle	4	2	2.0	19	SMAD3,DLG1
+GO:0051481	negative regulation of cytosolic calcium ion concentration	2	1	2.0	2	SMAD3
+GO:0071560	cellular response to transforming growth factor beta stimulus	4	3	1.33	30	SMAD3,LIMS1,CLEC3B
+GO:0097191	extrinsic apoptotic signaling pathway	4	2	2.0	30	SMAD3,G0S2
+GO:1901203	positive regulation of extracellular matrix assembly	2	1	2.0	2	SMAD3
+GO:1902895	positive regulation of pri-miRNA transcription from RNA polymerase II promoter	4	2	2.0	16	SMAD3,PDGFB
+GO:0007352	zygotic specification of dorsal/ventral axis	1	1	1.0	2	SMAD6
+GO:0008285	negative regulation of cell proliferation	7	5	1.4	215	SMAD6,DDAH1,IGFBP3,DLC1,DAB2IP
+GO:0010991	negative regulation of SMAD protein complex assembly	2	2	1.0	4	SMAD6,LDLRAD4
+GO:0030509	BMP signaling pathway	2	2	1.0	57	SMAD6,BMPR2
+GO:0030512	negative regulation of transforming growth factor beta receptor signaling pathway	8	4	2.0	50	SMAD6,LDLRAD4,ADAM17,MECOM
+GO:0030514	negative regulation of BMP signaling pathway	1	1	1.0	25	SMAD6
+GO:0031589	cell-substrate adhesion	1	1	1.0	11	SMAD6
+GO:0034616	response to laminar fluid shear stress	1	1	1.0	3	SMAD6
+GO:0045444	fat cell differentiation	1	1	1.0	13	SMAD6
+GO:0007268	chemical synaptic transmission	1	1	1.0	4	SPG11
+GO:0008088	axo-dendritic transport	1	1	1.0	1	SPG11
+GO:0048489	synaptic vesicle transport	1	1	1.0	4	SPG11
+GO:0000187	activation of MAPK activity	6	3	2.0	36	THBS1,FGF1,NRG1
+GO:0001937	negative regulation of endothelial cell proliferation	2	1	2.0	26	THBS1
+GO:0001953	negative regulation of cell-matrix adhesion	2	1	2.0	10	THBS1
+GO:0002040	sprouting angiogenesis	2	1	2.0	10	THBS1
+GO:0002544	chronic inflammatory response	2	1	2.0	2	THBS1
+GO:0002581	negative regulation of antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	2	1	2.0	1	THBS1
+GO:0002605	negative regulation of dendritic cell antigen processing and presentation	2	1	2.0	1	THBS1
+GO:0006954	inflammatory response	2	1	2.0	34	THBS1
+GO:0009749	response to glucose	2	1	2.0	9	THBS1
+GO:0010595	positive regulation of endothelial cell migration	14	4	3.5	41	THBS1,BMPR2,FOXP1,FGF1
+GO:0010596	negative regulation of endothelial cell migration	5	3	1.67	19	THBS1,STC1,DAB2IP
+GO:0010748	negative regulation of plasma membrane long-chain fatty acid transport	2	1	2.0	4	THBS1
+GO:0010751	negative regulation of nitric oxide mediated signal transduction	2	1	2.0	3	THBS1
+GO:0010754	negative regulation of cGMP-mediated signaling	2	1	2.0	1	THBS1
+GO:0010757	negative regulation of plasminogen activation	2	1	2.0	7	THBS1
+GO:0010763	positive regulation of fibroblast migration	2	1	2.0	3	THBS1
+GO:0016477	cell migration	9	2	4.5	85	THBS1,LAMC1
+GO:0016525	negative regulation of angiogenesis	4	2	2.0	48	THBS1,DAB2IP
+GO:0018149	peptide cross-linking	2	1	2.0	24	THBS1
+GO:0030194	positive regulation of blood coagulation	2	1	2.0	7	THBS1
+GO:0030335	positive regulation of cell migration	20	8	2.5	147	THBS1,PDGFB,ADAM17,FGF1,HBEGF,EDN1,SNAI2,CREB3
+GO:0030511	positive regulation of transforming growth factor beta receptor signaling pathway	2	1	2.0	14	THBS1
+GO:0030823	regulation of cGMP metabolic process	3	2	1.5	3	THBS1,NPPC
+GO:0032026	response to magnesium ion	2	1	2.0	2	THBS1
+GO:0032695	negative regulation of interleukin-12 production	2	1	2.0	8	THBS1
+GO:0040037	negative regulation of fibroblast growth factor receptor signaling pathway	2	1	2.0	2	THBS1
+GO:0042327	positive regulation of phosphorylation	2	1	2.0	26	THBS1
+GO:0042535	positive regulation of tumor necrosis factor biosynthetic process	2	1	2.0	5	THBS1
+GO:0043032	positive regulation of macrophage activation	2	1	2.0	6	THBS1
+GO:0043154	negative regulation of cysteine-type endopeptidase activity involved in apoptotic process	2	1	2.0	41	THBS1
+GO:0043536	positive regulation of blood vessel endothelial cell migration	4	2	2.0	30	THBS1,PDGFB
+GO:0043537	negative regulation of blood vessel endothelial cell migration	2	1	2.0	11	THBS1
+GO:0043652	engulfment of apoptotic cell	2	1	2.0	3	THBS1
+GO:0045766	positive regulation of angiogenesis	5	2	2.5	75	THBS1,FGF1
+GO:0048661	positive regulation of smooth muscle cell proliferation	16	4	4.0	23	THBS1,PDGFB,FOXP1,EDN1
+GO:0050921	positive regulation of chemotaxis	4	2	2.0	9	THBS1,PDGFB
+GO:0051592	response to calcium ion	2	1	2.0	32	THBS1
+GO:0051897	positive regulation of protein kinase B signaling	3	2	1.5	57	THBS1,HBEGF
+GO:0051918	negative regulation of fibrinolysis	2	1	2.0	5	THBS1
+GO:1902043	positive regulation of extrinsic apoptotic signaling pathway via death domain receptors	2	1	2.0	3	THBS1
+GO:2000379	positive regulation of reactive oxygen species metabolic process	9	3	3.0	17	THBS1,PDGFB,TGFBR2
+GO:2001027	negative regulation of endothelial cell chemotaxis	2	1	2.0	5	THBS1
+GO:0043122	regulation of I-kappaB kinase/NF-kappaB signaling	1	1	1.0	9	ZFAND6
+GO:0009838	abscission	1	1	1.0	8	ZFYVE19
+GO:0032466	negative regulation of cytokinesis	1	1	1.0	4	ZFYVE19
+GO:0044878	mitotic cytokinesis checkpoint	1	1	1.0	4	ZFYVE19
+GO:0000723	telomere maintenance	1	1	1.0	21	ERCC4
+GO:0000724	double-strand break repair via homologous recombination	1	1	1.0	64	ERCC4
+GO:0006289	nucleotide-excision repair	2	2	1.0	24	ERCC4,ERCC8
+GO:0006295	nucleotide-excision repair, DNA incision, 3'-to lesion	1	1	1.0	4	ERCC4
+GO:0006296	nucleotide-excision repair, DNA incision, 5'-to lesion	1	1	1.0	4	ERCC4
+GO:0006303	double-strand break repair via nonhomologous end joining	1	1	1.0	32	ERCC4
+GO:0009411	response to UV	2	2	1.0	35	ERCC4,ERCC8
+GO:0032205	negative regulation of telomere maintenance	1	1	1.0	4	ERCC4
+GO:0033683	nucleotide-excision repair, DNA incision	1	1	1.0	9	ERCC4
+GO:0034644	cellular response to UV	1	1	1.0	34	ERCC4
+GO:0051974	negative regulation of telomerase activity	1	1	1.0	13	ERCC4
+GO:0061819	telomeric DNA-containing double minutes formation	1	1	1.0	2	ERCC4
+GO:1904357	negative regulation of telomere maintenance via telomere lengthening	1	1	1.0	7	ERCC4
+GO:1905765	negative regulation of protection from non-homologous end joining at telomere	1	1	1.0	2	ERCC4
+GO:1905768	negative regulation of double-stranded telomeric DNA binding	1	1	1.0	1	ERCC4
+GO:0006479	protein methylation	1	1	1.0	12	GSPT1
+GO:0032526	response to retinoic acid	6	2	3.0	15	HSD17B2,RARA
+GO:0006378	mRNA polyadenylation	1	1	1.0	15	NUDT21
+GO:0006397	mRNA processing	1	1	1.0	13	NUDT21
+GO:0051262	protein tetramerization	1	1	1.0	25	NUDT21
+GO:0006449	regulation of translational termination	1	1	1.0	3	OGFOD1
+GO:0008283	cell proliferation	3	3	1.0	90	OGFOD1,MRPS27,NRG1
+GO:0018126	protein hydroxylation	1	1	1.0	4	OGFOD1
+GO:0019511	peptidyl-proline hydroxylation	1	1	1.0	2	OGFOD1
+GO:0034063	stress granule assembly	1	1	1.0	6	OGFOD1
+GO:0009386	translational attenuation	1	1	1.0	1	TRAP1
+GO:1901856	negative regulation of cellular respiration	1	1	1.0	1	TRAP1
+GO:0033209	tumor necrosis factor-mediated signaling pathway	4	2	2.0	25	CARD14,LIMS1
+GO:0030155	regulation of cell adhesion	5	2	2.5	14	CYTH1,EMCN
+GO:0032465	regulation of cytokinesis	2	1	2.0	20	GIT1
+GO:0006511	ubiquitin-dependent protein catabolic process	3	2	1.5	44	NPLOC4,PSMF1
+GO:0030970	retrograde protein transport, ER to cytosol	2	1	2.0	17	NPLOC4
+GO:0032480	negative regulation of type I interferon production	2	1	2.0	7	NPLOC4
+GO:0039536	negative regulation of RIG-I signaling pathway	5	2	2.5	9	NPLOC4,SEC14L1
+GO:0072332	intrinsic apoptotic signaling pathway by p53 class mediator	2	1	2.0	17	PDK2
+GO:0007165	signal transduction	7	3	2.33	58	RARA,AKT3,GJA1
+GO:0030853	negative regulation of granulocyte differentiation	5	1	5.0	5	RARA
+GO:0032689	negative regulation of interferon-gamma production	5	1	5.0	15	RARA
+GO:0032720	negative regulation of tumor necrosis factor production	5	1	5.0	28	RARA
+GO:0032736	positive regulation of interleukin-13 production	5	1	5.0	3	RARA
+GO:0032753	positive regulation of interleukin-4 production	5	1	5.0	8	RARA
+GO:0032754	positive regulation of interleukin-5 production	10	2	5.0	2	RARA,PDE4D
+GO:0043277	apoptotic cell clearance	6	2	3.0	6	RARA,TGM2
+GO:0045630	positive regulation of T-helper 2 cell differentiation	5	1	5.0	1	RARA
+GO:0045787	positive regulation of cell cycle	5	1	5.0	14	RARA
+GO:0048384	retinoic acid receptor signaling pathway	5	1	5.0	5	RARA
+GO:0051099	positive regulation of binding	5	1	5.0	4	RARA
+GO:0071300	cellular response to retinoic acid	5	1	5.0	20	RARA
+GO:0071391	cellular response to estrogen stimulus	5	1	5.0	10	RARA
+GO:0006364	rRNA processing	2	1	2.0	26	RPL27
+GO:0015871	choline transport	3	1	3.0	3	SEC14L1
+GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	2	1	2.0	29	SMG6
+GO:0032204	regulation of telomere maintenance	2	1	2.0	12	SMG6
+GO:1904354	negative regulation of telomere capping	2	1	2.0	5	SMG6
+GO:0003085	negative regulation of systemic arterial blood pressure	2	2	1.0	4	TAC4,BMPR2
+GO:0007204	positive regulation of cytosolic calcium ion concentration	5	2	2.5	49	TAC4,EDN1
+GO:0007217	tachykinin receptor signaling pathway	1	1	1.0	7	TAC4
+GO:0050965	detection of temperature stimulus involved in sensory perception of pain	1	1	1.0	5	TAC4
+GO:0051930	regulation of sensory perception of pain	1	1	1.0	7	TAC4
+GO:1902093	positive regulation of flagellated sperm motility	1	1	1.0	7	TAC4
+GO:1904057	negative regulation of sensory perception of pain	1	1	1.0	2	TAC4
+GO:1904058	positive regulation of sensory perception of pain	1	1	1.0	2	TAC4
+GO:0035456	response to interferon-beta	5	2	2.5	8	XAF1,PLSCR1
+GO:0002860	positive regulation of natural killer cell mediated cytotoxicity directed against tumor cell target	1	1	1.0	6	CD226
+GO:0002891	positive regulation of immunoglobulin mediated immune response	1	1	1.0	2	CD226
+GO:0033005	positive regulation of mast cell activation	1	1	1.0	2	CD226
+GO:0045954	positive regulation of natural killer cell mediated cytotoxicity	1	1	1.0	13	CD226
+GO:0060369	positive regulation of Fc receptor mediated stimulatory signaling pathway	1	1	1.0	1	CD226
+GO:0010719	negative regulation of epithelial to mesenchymal transition	3	2	1.5	17	LDLRAD4,DAB2IP
+GO:0030336	negative regulation of cell migration	5	4	1.25	69	LDLRAD4,MIA3,DLC1,STC1
+GO:0006888	ER to Golgi vesicle-mediated transport	3	2	1.5	44	VAPA,MIA3
+GO:0007029	endoplasmic reticulum organization	2	1	2.0	15	VAPA
+GO:0031175	neuron projection development	2	1	2.0	35	VAPA
+GO:0034975	protein folding in endoplasmic reticulum	2	1	2.0	2	VAPA
+GO:0043123	positive regulation of I-kappaB kinase/NF-kappaB signaling	6	5	1.2	147	VAPA,HTR2B,PLK2,GJA1,TNFRSF10B
+GO:0044791	positive regulation by host of viral release from host cell	7	2	3.5	6	VAPA,CAV2
+GO:0044828	negative regulation by host of viral genome replication	2	1	2.0	5	VAPA
+GO:0044829	positive regulation by host of viral genome replication	2	1	2.0	6	VAPA
+GO:0070972	protein localization to endoplasmic reticulum	2	1	2.0	5	VAPA
+GO:0090114	COPII-coated vesicle budding	2	1	2.0	2	VAPA
+GO:0000920	cell separation after cytokinesis	1	1	1.0	18	VPS4B
+GO:0006997	nucleus organization	1	1	1.0	17	VPS4B
+GO:0007080	mitotic metaphase plate congression	1	1	1.0	39	VPS4B
+GO:0010824	regulation of centrosome duplication	2	2	1.0	17	VPS4B,PKHD1
+GO:0016197	endosomal transport	3	2	1.5	22	VPS4B,SNX18
+GO:0019076	viral release from host cell	1	1	1.0	4	VPS4B
+GO:0032510	endosome to lysosome transport via multivesicular body sorting pathway	1	1	1.0	4	VPS4B
+GO:0033993	response to lipid	2	2	1.0	2	VPS4B,ABCG1
+GO:0039702	viral budding via host ESCRT complex	1	1	1.0	20	VPS4B
+GO:0050792	regulation of viral process	1	1	1.0	5	VPS4B
+GO:0051261	protein depolymerization	1	1	1.0	1	VPS4B
+GO:0060548	negative regulation of cell death	2	2	1.0	37	VPS4B,HTR2B
+GO:0090611	ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway	1	1	1.0	5	VPS4B
+GO:1901673	regulation of mitotic spindle assembly	1	1	1.0	22	VPS4B
+GO:1903542	negative regulation of exosomal secretion	1	1	1.0	3	VPS4B
+GO:1903724	positive regulation of centriole elongation	1	1	1.0	1	VPS4B
+GO:1903902	positive regulation of viral life cycle	1	1	1.0	5	VPS4B
+GO:0046580	negative regulation of Ras protein signal transduction	1	1	1.0	5	RASAL3
+GO:0051142	positive regulation of NK T cell proliferation	1	1	1.0	4	RASAL3
+GO:0006633	fatty acid biosynthetic process	1	1	1.0	9	ABCD3
+GO:0006635	fatty acid beta-oxidation	3	3	1.0	18	ABCD3,CROT,DECR1
+GO:0007031	peroxisome organization	1	1	1.0	24	ABCD3
+GO:0042760	very long-chain fatty acid catabolic process	1	1	1.0	5	ABCD3
+GO:0000002	mitochondrial genome maintenance	3	2	1.5	7	AKT3,MPV17
+GO:0006188	IMP biosynthetic process	1	1	1.0	1	AMPD2
+GO:0052652	cyclic purine nucleotide metabolic process	1	1	1.0	1	AMPD2
+GO:0097009	energy homeostasis	1	1	1.0	2	AMPD2
+GO:0032956	regulation of actin cytoskeleton organization	3	2	1.5	31	ARHGEF19,DLC1
+GO:0032760	positive regulation of tumor necrosis factor production	1	1	1.0	28	CD2
+GO:0034113	heterotypic cell-cell adhesion	1	1	1.0	14	CD2
+GO:1902715	positive regulation of interferon-gamma secretion	1	1	1.0	8	CD2
+GO:2000484	positive regulation of interleukin-8 secretion	1	1	1.0	16	CD2
+GO:0070966	nuclear-transcribed mRNA catabolic process, no-go decay	1	1	1.0	2	CSDE1
+GO:0030574	collagen catabolic process	1	1	1.0	9	CTSK
+GO:0051603	proteolysis involved in cellular protein catabolic process	1	1	1.0	18	CTSK
+GO:1903146	regulation of autophagy of mitochondrion	1	1	1.0	21	CTSK
+GO:0000052	citrulline metabolic process	1	1	1.0	3	DDAH1
+GO:0006527	arginine catabolic process	1	1	1.0	4	DDAH1
+GO:0043116	negative regulation of vascular permeability	1	1	1.0	10	DDAH1
+GO:1900038	negative regulation of cellular response to hypoxia	1	1	1.0	2	DDAH1
+GO:0018108	peptidyl-tyrosine phosphorylation	9	4	2.25	66	DDR2,DYRK1A,PDGFB,FYN
+GO:0030500	regulation of bone mineralization	2	1	2.0	3	DDR2
+GO:0038063	collagen-activated tyrosine kinase receptor signaling pathway	2	1	2.0	4	DDR2
+GO:0045669	positive regulation of osteoblast differentiation	4	3	1.33	28	DDR2,BMPR2,TP63
+GO:0046777	protein autophosphorylation	3	2	1.5	160	DDR2,PAK2
+GO:0000226	microtubule cytoskeleton organization	2	2	1.0	30	DISC1,PHLDB2
+GO:0001764	neuron migration	1	1	1.0	9	DISC1
+GO:0002052	positive regulation of neuroblast proliferation	1	1	1.0	2	DISC1
+GO:0030177	positive regulation of Wnt signaling pathway	1	1	1.0	25	DISC1
+GO:0019321	pentose metabolic process	1	1	1.0	2	FGGY
+GO:0046835	carbohydrate phosphorylation	1	1	1.0	6	FGGY
+GO:0070050	neuron cellular homeostasis	2	2	1.0	5	FGGY,CHRNA1
+GO:2001238	positive regulation of extrinsic apoptotic signaling pathway	3	2	1.5	24	G0S2,PAK2
+GO:0050908	detection of light stimulus involved in visual perception	1	1	1.0	14	GNAT2
+GO:0034605	cellular response to heat	5	2	2.5	37	IER5,FGF1
+GO:0042127	regulation of cell proliferation	6	3	2.0	34	IER5,BMPR2,CREB3
+GO:1900036	positive regulation of cellular response to heat	2	1	2.0	1	IER5
+GO:0032020	ISG15-protein conjugation	1	1	1.0	7	ISG15
+GO:0032649	regulation of interferon-gamma production	1	1	1.0	1	ISG15
+GO:0034340	response to type I interferon	1	1	1.0	11	ISG15
+GO:0042742	defense response to bacterium	1	1	1.0	32	ISG15
+GO:0045071	negative regulation of viral genome replication	4	2	2.0	49	ISG15,PLSCR1
+GO:0006461	protein complex assembly	7	1	7.0	30	LAMC1
+GO:0007155	cell adhesion	8	2	4.0	39	LAMC1,ADAM17
+GO:0022617	extracellular matrix disassembly	7	1	7.0	16	LAMC1
+GO:0031581	hemidesmosome assembly	7	1	7.0	6	LAMC1
+GO:0034446	substrate adhesion-dependent cell spreading	7	1	7.0	26	LAMC1
+GO:0002687	positive regulation of leukocyte migration	1	1	1.0	3	MIA3
+GO:0006887	exocytosis	1	1	1.0	9	MIA3
+GO:0007162	negative regulation of cell adhesion	1	1	1.0	18	MIA3
+GO:0015031	protein transport	5	3	1.67	22	MIA3,RAP1A,CALCRL
+GO:0042060	wound healing	4	3	1.33	16	MIA3,DCBLD2,NRG1
+GO:0042953	lipoprotein transport	1	1	1.0	8	MIA3
+GO:0090110	cargo loading into COPII-coated vesicle	1	1	1.0	20	MIA3
+GO:0006198	cAMP catabolic process	6	2	3.0	19	PDE4B,PDE4D
+GO:0032729	positive regulation of interferon-gamma production	6	2	3.0	30	PDE4B,PDE4D
+GO:0050852	T cell receptor signaling pathway	9	3	3.0	18	PDE4B,PDE4D,FYN
+GO:0006506	GPI anchor biosynthetic process	1	1	1.0	16	PIGV
+GO:0030033	microvillus assembly	2	1	2.0	13	RAP1A
+GO:0032486	Rap protein signal transduction	2	1	2.0	6	RAP1A
+GO:0061028	establishment of endothelial barrier	2	1	2.0	14	RAP1A
+GO:0071320	cellular response to cAMP	7	2	3.5	39	RAP1A,PDE4D
+GO:1901888	regulation of cell junction assembly	2	1	2.0	4	RAP1A
+GO:0042787	protein ubiquitination involved in ubiquitin-dependent protein catabolic process	5	3	1.67	65	RNF11,RNF144B,RNF146
+GO:0051865	protein autoubiquitination	3	3	1.0	56	RNF11,ERCC8,RNF146
+GO:0007052	mitotic spindle organization	2	2	1.0	21	STIL,PLK2
+GO:0046599	regulation of centriole replication	2	2	1.0	9	STIL,PLK2
+GO:0051298	centrosome duplication	3	2	1.5	13	STIL,USP33
+GO:0071539	protein localization to centrosome	1	1	1.0	17	STIL
+GO:0033344	cholesterol efflux	2	2	1.0	31	STX12,ABCG1
+GO:0050821	protein stabilization	3	2	1.5	145	STX12,USP33
+GO:0043312	neutrophil degranulation	1	1	1.0	6	STXBP3
+GO:0045955	negative regulation of calcium ion-dependent exocytosis	1	1	1.0	1	STXBP3
+GO:0070527	platelet aggregation	2	2	1.0	32	STXBP3,GNAS
+GO:0030855	epithelial cell differentiation	2	1	2.0	41	TAGLN2
+GO:0042982	amyloid precursor protein metabolic process	1	1	1.0	10	TMCC2
+GO:0008277	regulation of G-protein coupled receptor protein signaling pathway	2	1	2.0	11	USP33
+GO:0009267	cellular response to starvation	3	2	1.5	29	USP33,BMPR2
+GO:0010506	regulation of autophagy	2	1	2.0	28	USP33
+GO:0016579	protein deubiquitination	2	1	2.0	77	USP33
+GO:0070536	protein K63-linked deubiquitination	2	1	2.0	32	USP33
+GO:0071108	protein K48-linked deubiquitination	2	1	2.0	28	USP33
+GO:0007189	adenylate cyclase-activating G-protein coupled receptor signaling pathway	1	1	1.0	20	GNAS
+GO:0009966	regulation of signal transduction	1	1	1.0	5	GNAS
+GO:0030819	positive regulation of cAMP biosynthetic process	3	2	1.5	49	GNAS,CALCRL
+GO:0043547	positive regulation of GTPase activity	9	4	2.25	93	GNAS,LIMS1,SNX18,CAV2
+GO:0043950	positive regulation of cAMP-mediated signaling	1	1	1.0	10	GNAS
+GO:0048589	developmental growth	2	2	1.0	5	GNAS,NIPBL
+GO:0050890	cognition	2	2	1.0	38	GNAS,NIPBL
+GO:0060348	bone development	2	2	1.0	12	GNAS,STC1
+GO:0060789	hair follicle placode formation	1	1	1.0	3	GNAS
+GO:0071107	response to parathyroid hormone	1	1	1.0	1	GNAS
+GO:0071880	adenylate cyclase-activating adrenergic receptor signaling pathway	1	1	1.0	4	GNAS
+GO:0001561	fatty acid alpha-oxidation	4	1	4.0	5	HAO1
+GO:0046296	glycolate catabolic process	4	1	4.0	1	HAO1
+GO:1901799	negative regulation of proteasomal protein catabolic process	1	1	1.0	4	PSMF1
+GO:0015882	L-ascorbic acid transport	1	1	1.0	9	SLC23A2
+GO:0070904	transepithelial L-ascorbic acid transport	1	1	1.0	2	SLC23A2
+GO:0018153	isopeptide cross-linking via N6-(L-isoglutamyl)-L-lysine	1	1	1.0	1	TGM2
+GO:0032471	negative regulation of endoplasmic reticulum calcium ion concentration	1	1	1.0	8	TGM2
+GO:0051561	positive regulation of mitochondrial calcium ion concentration	1	1	1.0	13	TGM2
+GO:0008203	cholesterol metabolic process	1	1	1.0	22	ABCG1
+GO:0010033	response to organic substance	1	1	1.0	13	ABCG1
+GO:0032367	intracellular cholesterol transport	1	1	1.0	7	ABCG1
+GO:0033700	phospholipid efflux	1	1	1.0	14	ABCG1
+GO:0034436	glycoprotein transport	1	1	1.0	2	ABCG1
+GO:0042632	cholesterol homeostasis	1	1	1.0	32	ABCG1
+GO:0042987	amyloid precursor protein catabolic process	1	1	1.0	3	ABCG1
+GO:0055091	phospholipid homeostasis	1	1	1.0	6	ABCG1
+GO:0001938	positive regulation of endothelial cell proliferation	4	3	1.33	52	PDGFB,BMPR2,HTR2B
+GO:0002548	monocyte chemotaxis	2	1	2.0	14	PDGFB
+GO:0009611	response to wounding	2	1	2.0	20	PDGFB
+GO:0010512	negative regulation of phosphatidylinositol biosynthetic process	2	1	2.0	2	PDGFB
+GO:0010544	negative regulation of platelet activation	2	1	2.0	5	PDGFB
+GO:0010629	negative regulation of gene expression	2	1	2.0	119	PDGFB
+GO:0014911	positive regulation of smooth muscle cell migration	2	1	2.0	6	PDGFB
+GO:0018105	peptidyl-serine phosphorylation	9	4	2.25	87	PDGFB,PAK2,TGFBR2,PLK2
+GO:0030097	hemopoiesis	2	1	2.0	11	PDGFB
+GO:0032147	activation of protein kinase activity	2	1	2.0	25	PDGFB
+GO:0032148	activation of protein kinase B activity	6	3	2.0	18	PDGFB,FGF1,NRG1
+GO:0035655	interleukin-18-mediated signaling pathway	2	1	2.0	3	PDGFB
+GO:0035793	positive regulation of metanephric mesenchymal cell migration by platelet-derived growth factor receptor-beta signaling pathway	2	1	2.0	2	PDGFB
+GO:0043406	positive regulation of MAP kinase activity	11	5	2.2	39	PDGFB,HTR2B,EPGN,FGF1,EDN1
+GO:0043410	positive regulation of MAPK cascade	9	3	3.0	51	PDGFB,CAV2,DAB2IP
+GO:0043552	positive regulation of phosphatidylinositol 3-kinase activity	2	1	2.0	21	PDGFB
+GO:0045740	positive regulation of DNA replication	2	1	2.0	30	PDGFB
+GO:0045840	positive regulation of mitotic nuclear division	7	3	2.33	22	PDGFB,EPGN,EDN1
+GO:0048008	platelet-derived growth factor receptor signaling pathway	2	1	2.0	15	PDGFB
+GO:0048146	positive regulation of fibroblast proliferation	2	1	2.0	30	PDGFB
+GO:0050731	positive regulation of peptidyl-tyrosine phosphorylation	3	2	1.5	57	PDGFB,PAK2
+GO:0060326	cell chemotaxis	3	2	1.5	37	PDGFB,HBEGF
+GO:0061098	positive regulation of protein tyrosine kinase activity	2	1	2.0	10	PDGFB
+GO:0070374	positive regulation of ERK1 and ERK2 cascade	3	2	1.5	131	PDGFB,HTR2B
+GO:0070528	protein kinase C signaling	3	2	1.5	11	PDGFB,HTR2B
+GO:0071363	cellular response to growth factor stimulus	2	1	2.0	15	PDGFB
+GO:0072126	positive regulation of glomerular mesangial cell proliferation	2	1	2.0	2	PDGFB
+GO:0072593	reactive oxygen species metabolic process	2	1	2.0	20	PDGFB
+GO:0090280	positive regulation of calcium ion import	3	2	1.5	5	PDGFB,STC1
+GO:1900127	positive regulation of hyaluronan biosynthetic process	2	1	2.0	3	PDGFB
+GO:1902894	negative regulation of pri-miRNA transcription from RNA polymerase II promoter	14	2	7.0	7	PDGFB,NFIB
+GO:1904707	positive regulation of vascular smooth muscle cell proliferation	2	1	2.0	8	PDGFB
+GO:1904754	positive regulation of vascular associated smooth muscle cell migration	2	1	2.0	6	PDGFB
+GO:1905064	negative regulation of vascular smooth muscle cell differentiation	2	1	2.0	2	PDGFB
+GO:1905176	positive regulation of vascular smooth muscle cell dedifferentiation	2	1	2.0	1	PDGFB
+GO:2000573	positive regulation of DNA biosynthetic process	2	1	2.0	10	PDGFB
+GO:2000591	positive regulation of metanephric mesenchymal cell migration	2	1	2.0	1	PDGFB
+GO:0016558	protein import into peroxisome matrix	1	1	1.0	16	PEX26
+GO:0006509	membrane protein ectodomain proteolysis	1	1	1.0	41	ADAM17
+GO:0007220	Notch receptor processing	1	1	1.0	2	ADAM17
+GO:0010820	positive regulation of T cell chemotaxis	1	1	1.0	10	ADAM17
+GO:0030307	positive regulation of cell growth	2	2	1.0	54	ADAM17,NRG1
+GO:0031659	positive regulation of cyclin-dependent protein serine/threonine kinase activity involved in G1/S transition of mitotic cell cycle	1	1	1.0	9	ADAM17
+GO:0032496	response to lipopolysaccharide	12	3	4.0	28	ADAM17,FOXP1,TRIB1
+GO:0032722	positive regulation of chemokine production	1	1	1.0	10	ADAM17
+GO:0033627	cell adhesion mediated by integrin	1	1	1.0	19	ADAM17
+GO:0035313	wound healing, spreading of epidermal cells	1	1	1.0	5	ADAM17
+GO:0035625	epidermal growth factor-activated receptor transactivation by G-protein coupled receptor signaling pathway	1	1	1.0	5	ADAM17
+GO:0045741	positive regulation of epidermal growth factor-activated receptor activity	2	2	1.0	9	ADAM17,EPGN
+GO:0051088	PMA-inducible membrane protein ectodomain proteolysis	1	1	1.0	6	ADAM17
+GO:0055099	response to high density lipoprotein particle	1	1	1.0	1	ADAM17
+GO:0006911	phagocytosis, engulfment	3	2	1.5	7	ARHGAP25,ELMO1
+GO:0007015	actin filament organization	3	2	1.5	23	ARHGAP25,DLG1
+GO:0051058	negative regulation of small GTPase mediated signal transduction	1	1	1.0	9	ARHGAP25
+GO:0001935	endothelial cell proliferation	3	2	1.5	12	BMPR2,DLG1
+GO:0002063	chondrocyte development	1	1	1.0	1	BMPR2
+GO:0006366	transcription from RNA polymerase II promoter	1	1	1.0	65	BMPR2
+GO:0007178	transmembrane receptor protein serine/threonine kinase signaling pathway	1	1	1.0	1	BMPR2
+GO:0010634	positive regulation of epithelial cell migration	2	2	1.0	28	BMPR2,CAPN7
+GO:0010862	positive regulation of pathway-restricted SMAD protein phosphorylation	1	1	1.0	46	BMPR2
+GO:0014916	regulation of lung blood pressure	1	1	1.0	1	BMPR2
+GO:0030513	positive regulation of BMP signaling pathway	1	1	1.0	11	BMPR2
+GO:0071773	cellular response to BMP stimulus	1	1	1.0	20	BMPR2
+GO:0072577	endothelial cell apoptotic process	1	1	1.0	3	BMPR2
+GO:1902731	negative regulation of chondrocyte proliferation	1	1	1.0	2	BMPR2
+GO:2000279	negative regulation of DNA biosynthetic process	1	1	1.0	9	BMPR2
+GO:0006171	cAMP biosynthetic process	2	1	2.0	14	CALCRL
+GO:0006816	calcium ion transport	2	1	2.0	37	CALCRL
+GO:0031623	receptor internalization	2	1	2.0	36	CALCRL
+GO:0071329	cellular response to sucrose stimulus	2	1	2.0	1	CALCRL
+GO:0003009	skeletal muscle contraction	1	1	1.0	13	CHRNA1
+GO:0007274	neuromuscular synaptic transmission	1	1	1.0	3	CHRNA1
+GO:0007528	neuromuscular junction development	1	1	1.0	4	CHRNA1
+GO:0019228	neuronal action potential	2	2	1.0	5	CHRNA1,KCNMB3
+GO:0042391	regulation of membrane potential	3	2	1.5	30	CHRNA1,DLG1
+GO:0046716	muscle cell cellular homeostasis	1	1	1.0	4	CHRNA1
+GO:0048630	skeletal muscle tissue growth	1	1	1.0	2	CHRNA1
+GO:0050881	musculoskeletal movement	1	1	1.0	2	CHRNA1
+GO:0050905	neuromuscular process	1	1	1.0	4	CHRNA1
+GO:0007160	cell-matrix adhesion	2	1	2.0	50	HOXD3
+GO:0007219	Notch signaling pathway	7	3	2.33	19	HOXD3,MAML3,SNAI2
+GO:0001819	positive regulation of cytokine production	1	1	1.0	13	HTR2B
+GO:0006182	cGMP biosynthetic process	3	3	1.0	10	HTR2B,NPPC,GUCY1A3
+GO:0006874	cellular calcium ion homeostasis	4	4	1.0	34	HTR2B,STIM2,PKHD1,STC1
+GO:0007202	activation of phospholipase C activity	1	1	1.0	11	HTR2B
+GO:0007210	serotonin receptor signaling pathway	1	1	1.0	3	HTR2B
+GO:0010507	negative regulation of autophagy	2	2	1.0	24	HTR2B,DAP
+GO:0010513	positive regulation of phosphatidylinositol biosynthetic process	1	1	1.0	3	HTR2B
+GO:0014065	phosphatidylinositol 3-kinase signaling	5	2	2.5	20	HTR2B,EDN1
+GO:0014827	intestine smooth muscle contraction	1	1	1.0	3	HTR2B
+GO:0016310	phosphorylation	3	3	1.0	22	HTR2B,PAK2,PIK3CA
+GO:0019722	calcium-mediated signaling	5	2	2.5	31	HTR2B,EDN1
+GO:0042310	vasoconstriction	5	2	2.5	9	HTR2B,EDN1
+GO:0050795	regulation of behavior	1	1	1.0	2	HTR2B
+GO:0051000	positive regulation of nitric-oxide synthase activity	1	1	1.0	12	HTR2B
+GO:0051209	release of sequestered calcium ion into cytosol	1	1	1.0	21	HTR2B
+GO:0070371	ERK1 and ERK2 cascade	1	1	1.0	18	HTR2B
+GO:0001837	epithelial to mesenchymal transition	5	2	2.5	22	LIMS1,SNAI2
+GO:0010811	positive regulation of cell-substrate adhesion	1	1	1.0	9	LIMS1
+GO:0045184	establishment of protein localization	3	3	1.0	19	LIMS1,PHLDB2,MCC
+GO:0050678	regulation of epithelial cell proliferation	1	1	1.0	2	LIMS1
+GO:0051894	positive regulation of focal adhesion assembly	1	1	1.0	16	LIMS1
+GO:1900026	positive regulation of substrate adhesion-dependent cell spreading	1	1	1.0	23	LIMS1
+GO:0006556	S-adenosylmethionine biosynthetic process	2	1	2.0	5	MAT2A
+GO:0034214	protein hexamerization	2	1	2.0	6	MAT2A
+GO:0051291	protein heterooligomerization	2	1	2.0	22	MAT2A
+GO:0042592	homeostatic process	2	1	2.0	1	MPV17
+GO:0006457	protein folding	1	1	1.0	9	NPPC
+GO:0007168	receptor guanylyl cyclase signaling pathway	1	1	1.0	6	NPPC
+GO:0030814	regulation of cAMP metabolic process	1	1	1.0	3	NPPC
+GO:0051447	negative regulation of meiotic cell cycle	1	1	1.0	1	NPPC
+GO:1900194	negative regulation of oocyte maturation	1	1	1.0	1	NPPC
+GO:0006098	pentose-phosphate shunt	1	1	1.0	3	RPE
+GO:0010801	negative regulation of peptidyl-threonine phosphorylation	2	1	2.0	9	SPRED2
+GO:0043966	histone H3 acetylation	1	1	1.0	44	SUPT7L
+GO:0043124	negative regulation of I-kappaB kinase/NF-kappaB signaling	3	2	1.5	34	TANK,DAB2IP
+GO:0071347	cellular response to interleukin-1	3	2	1.5	26	TANK,DAB2IP
+GO:1903003	positive regulation of protein deubiquitination	1	1	1.0	3	TANK
+GO:2000158	positive regulation of ubiquitin-specific protease activity	1	1	1.0	1	TANK
+GO:0045081	negative regulation of interleukin-10 biosynthetic process	1	1	1.0	1	TRIB2
+GO:0033085	negative regulation of T cell differentiation in thymus	2	1	2.0	2	ZC3H8
+GO:0042795	snRNA transcription from RNA polymerase II promoter	2	1	2.0	9	ZC3H8
+GO:0042796	snRNA transcription from RNA polymerase III promoter	2	1	2.0	5	ZC3H8
+GO:0043029	T cell homeostasis	2	1	2.0	1	ZC3H8
+GO:0045945	positive regulation of transcription from RNA polymerase III promoter	2	1	2.0	10	ZC3H8
+GO:0046677	response to antibiotic	2	1	2.0	14	ZC3H8
+GO:0070245	positive regulation of thymocyte apoptotic process	2	1	2.0	1	ZC3H8
+GO:0007157	heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	1	1	1.0	13	ALCAM
+GO:0000060	protein import into nucleus, translocation	3	1	3.0	17	BCL6
+GO:0045591	positive regulation of regulatory T cell differentiation	3	1	3.0	7	BCL6
+GO:0010976	positive regulation of neuron projection development	1	1	1.0	34	CAMK1
+GO:0032880	regulation of protein localization	1	1	1.0	27	CAMK1
+GO:0043393	regulation of protein binding	1	1	1.0	7	CAMK1
+GO:0046827	positive regulation of protein export from nucleus	1	1	1.0	10	CAMK1
+GO:0051147	regulation of muscle cell differentiation	2	2	1.0	4	CAMK1,MEGF10
+GO:0051149	positive regulation of muscle cell differentiation	1	1	1.0	3	CAMK1
+GO:0051835	positive regulation of synapse structural plasticity	1	1	1.0	2	CAMK1
+GO:0060143	positive regulation of syncytium formation by plasma membrane fusion	1	1	1.0	2	CAMK1
+GO:0060999	positive regulation of dendritic spine development	1	1	1.0	4	CAMK1
+GO:0071902	positive regulation of protein serine/threonine kinase activity	3	2	1.5	27	CAMK1,DAB2IP
+GO:1901985	positive regulation of protein acetylation	1	1	1.0	6	CAMK1
+GO:2000615	regulation of histone H3-K9 acetylation	1	1	1.0	3	CAMK1
+GO:0097264	self proteolysis	1	1	1.0	5	CAPN7
+GO:0006044	N-acetylglucosamine metabolic process	1	1	1.0	8	CHST2
+GO:0006790	sulfur compound metabolic process	1	1	1.0	10	CHST2
+GO:0001503	ossification	1	1	1.0	7	CLEC3B
+GO:0030282	bone mineralization	1	1	1.0	7	CLEC3B
+GO:0071310	cellular response to organic substance	1	1	1.0	3	CLEC3B
+GO:0035987	endodermal cell differentiation	2	1	2.0	25	COL8A1
+GO:0008360	regulation of cell shape	4	2	2.0	61	DLG1,DLC1
+GO:0030866	cortical actin cytoskeleton organization	2	1	2.0	15	DLG1
+GO:0030953	astral microtubule organization	2	1	2.0	7	DLG1
+GO:0034629	cellular protein complex localization	2	1	2.0	6	DLG1
+GO:0043268	positive regulation of potassium ion transport	3	2	1.5	4	DLG1,FHL1
+GO:0043622	cortical microtubule organization	2	1	2.0	2	DLG1
+GO:0051660	establishment of centrosome localization	2	1	2.0	2	DLG1
+GO:0070373	negative regulation of ERK1 and ERK2 cascade	5	3	1.67	29	DLG1,DUSP4,DAB2IP
+GO:0070830	bicellular tight junction assembly	2	1	2.0	15	DLG1
+GO:0098609	cell-cell adhesion	4	2	2.0	27	DLG1,EMCN
+GO:1901222	regulation of NIK/NF-kappaB signaling	2	1	2.0	7	DLG1
+GO:1903078	positive regulation of protein localization to plasma membrane	2	1	2.0	26	DLG1
+GO:1903753	negative regulation of p38MAPK cascade	2	1	2.0	4	DLG1
+GO:0002903	negative regulation of B cell apoptotic process	8	1	8.0	4	FOXP1
+GO:0030316	osteoclast differentiation	8	1	8.0	5	FOXP1
+GO:0032680	regulation of tumor necrosis factor production	8	1	8.0	4	FOXP1
+GO:0035926	chemokine (C-C motif) ligand 2 secretion	8	1	8.0	2	FOXP1
+GO:0036035	osteoclast development	8	1	8.0	2	FOXP1
+GO:0042116	macrophage activation	8	1	8.0	4	FOXP1
+GO:0042117	monocyte activation	8	1	8.0	5	FOXP1
+GO:0042118	endothelial cell activation	8	1	8.0	5	FOXP1
+GO:0045655	regulation of monocyte differentiation	8	1	8.0	1	FOXP1
+GO:0050706	regulation of interleukin-1 beta secretion	8	1	8.0	1	FOXP1
+GO:0050727	regulation of inflammatory response	8	1	8.0	11	FOXP1
+GO:0060766	negative regulation of androgen receptor signaling pathway	8	1	8.0	12	FOXP1
+GO:1900424	regulation of defense response to bacterium	8	1	8.0	1	FOXP1
+GO:1901256	regulation of macrophage colony-stimulating factor production	8	1	8.0	1	FOXP1
+GO:1901509	regulation of endothelial tube morphogenesis	11	2	5.5	4	FOXP1,FGF1
+GO:2001182	regulation of interleukin-12 secretion	8	1	8.0	1	FOXP1
+GO:0001508	action potential	1	1	1.0	4	KCNMB3
+GO:0005513	detection of calcium ion	1	1	1.0	9	KCNMB3
+GO:0006813	potassium ion transport	1	1	1.0	17	KCNMB3
+GO:0051168	nuclear export	1	1	1.0	6	LSG1
+GO:0043069	negative regulation of programmed cell death	5	1	5.0	8	MECOM
+GO:0046329	negative regulation of JNK cascade	6	2	3.0	15	MECOM,HDAC3
+GO:0051726	regulation of cell cycle	5	1	5.0	31	MECOM
+GO:0006474	N-terminal protein amino acid acetylation	1	1	1.0	15	NAA50
+GO:0034087	establishment of mitotic sister chromatid cohesion	1	1	1.0	1	NAA50
+GO:0071962	mitotic sister chromatid cohesion, centromeric	1	1	1.0	1	NAA50
+GO:0030220	platelet formation	1	1	1.0	7	NBEAL2
+GO:2001271	negative regulation of cysteine-type endopeptidase activity involved in execution phase of apoptosis	1	1	1.0	3	PAK2
+GO:0010470	regulation of gastrulation	1	1	1.0	5	PHLDB2
+GO:0010717	regulation of epithelial to mesenchymal transition	1	1	1.0	9	PHLDB2
+GO:0051497	negative regulation of stress fiber assembly	6	3	2.0	15	PHLDB2,MET,DLC1
+GO:0051895	negative regulation of focal adhesion assembly	3	2	1.5	9	PHLDB2,DLC1
+GO:0070507	regulation of microtubule cytoskeleton organization	1	1	1.0	9	PHLDB2
+GO:1903690	negative regulation of wound healing, spreading of epidermal cells	1	1	1.0	4	PHLDB2
+GO:1904261	positive regulation of basement membrane assembly involved in embryonic body morphogenesis	1	1	1.0	10	PHLDB2
+GO:2000811	negative regulation of anoikis	5	2	2.5	17	PIK3CA,SNAI2
+GO:0006915	apoptotic process	11	4	2.75	80	PLSCR1,TGFBR2,DAP,DLC1
+GO:0045089	positive regulation of innate immune response	3	1	3.0	9	PLSCR1
+GO:2000373	positive regulation of DNA topoisomerase (ATP-hydrolyzing) activity	3	1	3.0	4	PLSCR1
+GO:0006355	regulation of transcription, DNA-templated	1	1	1.0	124	RARB
+GO:0048566	embryonic digestive tract development	1	1	1.0	8	RARB
+GO:0006054	N-acetylneuraminate metabolic process	1	1	1.0	1	ST6GAL1
+GO:0018279	protein N-linked glycosylation via asparagine	1	1	1.0	14	ST6GAL1
+GO:0097503	sialylation	1	1	1.0	5	ST6GAL1
+GO:0018107	peptidyl-threonine phosphorylation	5	1	5.0	35	TGFBR2
+GO:0060389	pathway-restricted SMAD protein phosphorylation	5	1	5.0	22	TGFBR2
+GO:0070723	response to cholesterol	5	1	5.0	7	TGFBR2
+GO:2000563	positive regulation of CD4-positive, alpha-beta T cell proliferation	5	1	5.0	3	TGFBR2
+GO:0051289	protein homotetramerization	2	2	1.0	46	TP63,DECR1
+GO:1902808	positive regulation of cell cycle G1/S phase transition	1	1	1.0	9	TP63
+GO:2000271	positive regulation of fibroblast apoptotic process	5	2	2.5	6	TP63,STK17A
+GO:2000773	negative regulation of cellular senescence	1	1	1.0	9	TP63
+GO:0008333	endosome to lysosome transport	1	1	1.0	33	TRAK1
+GO:0051775	response to redox state	1	1	1.0	7	ADH5
+GO:0016239	positive regulation of macroautophagy	1	1	1.0	22	SCOC
+GO:0061635	regulation of protein complex stability	1	1	1.0	6	SCOC
+GO:0006686	sphingomyelin biosynthetic process	2	1	2.0	3	SGMS2
+GO:0032237	activation of store-operated calcium channel activity	1	1	1.0	9	STIM2
+GO:0051928	positive regulation of calcium ion transport	4	2	2.0	20	STIM2,CREB3
+GO:0006310	DNA recombination	1	1	1.0	9	THAP9
+GO:0006313	transposition, DNA-mediated	1	1	1.0	1	THAP9
+GO:0015074	DNA integration	1	1	1.0	4	THAP9
+GO:0048010	vascular endothelial growth factor receptor signaling pathway	2	1	2.0	22	VEGFC
+GO:0050930	induction of positive chemotaxis	5	2	2.5	10	VEGFC,CREB3
+GO:0060754	positive regulation of mast cell chemotaxis	2	1	2.0	4	VEGFC
+GO:0034198	cellular response to amino acid starvation	1	1	1.0	33	DAP
+GO:0097190	apoptotic signaling pathway	1	1	1.0	21	DAP
+GO:0000209	protein polyubiquitination	1	1	1.0	79	ERCC8
+GO:0006283	transcription-coupled nucleotide-excision repair	1	1	1.0	12	ERCC8
+GO:0043161	proteasome-mediated ubiquitin-dependent protein catabolic process	1	1	1.0	69	ERCC8
+GO:0008543	fibroblast growth factor receptor signaling pathway	3	1	3.0	76	FGF1
+GO:0045542	positive regulation of cholesterol biosynthetic process	3	1	3.0	1	FGF1
+GO:0051781	positive regulation of cell division	3	1	3.0	5	FGF1
+GO:0060681	branch elongation involved in ureteric bud branching	3	1	3.0	1	FGF1
+GO:0072163	mesonephric epithelium development	3	1	3.0	1	FGF1
+GO:1902533	positive regulation of intracellular signal transduction	3	1	3.0	4	FGF1
+GO:1903672	positive regulation of sprouting angiogenesis	3	1	3.0	5	FGF1
+GO:2000544	regulation of endothelial cell chemotaxis to fibroblast growth factor	3	1	3.0	3	FGF1
+GO:0001932	regulation of protein phosphorylation	1	1	1.0	13	FNIP1
+GO:0031929	TOR signaling	1	1	1.0	13	FNIP1
+GO:0007605	sensory perception of sound	6	3	2.0	62	GRXCR2,NIPBL,SNAI2
+GO:0090303	positive regulation of wound healing	1	1	1.0	9	HBEGF
+GO:0006476	protein deacetylation	1	1	1.0	26	HDAC3
+GO:0010832	negative regulation of myotube differentiation	1	1	1.0	9	HDAC3
+GO:0032008	positive regulation of TOR signaling	2	2	1.0	25	HDAC3,SLC38A9
+GO:0071498	cellular response to fluid shear stress	1	1	1.0	9	HDAC3
+GO:0050832	defense response to fungus	1	1	1.0	15	LEAP2
+GO:0010633	negative regulation of epithelial cell migration	3	2	1.5	13	MCC,DAB2IP
+GO:0050680	negative regulation of epithelial cell proliferation	3	2	1.5	23	MCC,DAB2IP
+GO:0014816	skeletal muscle satellite cell differentiation	1	1	1.0	1	MEGF10
+GO:0033002	muscle cell proliferation	1	1	1.0	1	MEGF10
+GO:0034109	homotypic cell-cell adhesion	1	1	1.0	4	MEGF10
+GO:0048641	regulation of skeletal muscle tissue development	1	1	1.0	1	MEGF10
+GO:0051451	myoblast migration	1	1	1.0	2	MEGF10
+GO:0055001	muscle cell development	1	1	1.0	1	MEGF10
+GO:0070131	positive regulation of mitochondrial translation	1	1	1.0	7	MRPS27
+GO:0003007	heart morphogenesis	1	1	1.0	6	NIPBL
+GO:0003151	outflow tract morphogenesis	1	1	1.0	6	NIPBL
+GO:0007064	mitotic sister chromatid cohesion	1	1	1.0	8	NIPBL
+GO:0007420	brain development	1	1	1.0	28	NIPBL
+GO:0031065	positive regulation of histone deacetylation	1	1	1.0	6	NIPBL
+GO:0034088	maintenance of mitotic sister chromatid cohesion	1	1	1.0	6	NIPBL
+GO:0034613	cellular protein localization	1	1	1.0	17	NIPBL
+GO:0035115	embryonic forelimb morphogenesis	1	1	1.0	6	NIPBL
+GO:0035136	forelimb morphogenesis	1	1	1.0	4	NIPBL
+GO:0035261	external genitalia morphogenesis	1	1	1.0	2	NIPBL
+GO:0042471	ear morphogenesis	1	1	1.0	1	NIPBL
+GO:0042634	regulation of hair cycle	1	1	1.0	5	NIPBL
+GO:0045995	regulation of embryonic development	1	1	1.0	2	NIPBL
+GO:0048557	embryonic digestive tract morphogenesis	1	1	1.0	3	NIPBL
+GO:0048592	eye morphogenesis	1	1	1.0	3	NIPBL
+GO:0048638	regulation of developmental growth	1	1	1.0	1	NIPBL
+GO:0060325	face morphogenesis	1	1	1.0	13	NIPBL
+GO:0061010	gall bladder development	1	1	1.0	1	NIPBL
+GO:0061038	uterus morphogenesis	1	1	1.0	2	NIPBL
+GO:0071481	cellular response to X-ray	1	1	1.0	3	NIPBL
+GO:0001519	peptide amidation	1	1	1.0	2	PAM
+GO:0071872	cellular response to epinephrine stimulus	5	1	5.0	3	PDE4D
+GO:0010508	positive regulation of autophagy	1	1	1.0	34	PLK2
+GO:0045732	positive regulation of protein catabolic process	1	1	1.0	44	PLK2
+GO:0045793	positive regulation of cell size	5	2	2.5	2	PRR16,EDN1
+GO:0042147	retrograde transport, endosome to Golgi	3	1	3.0	62	RHOBTB3
+GO:0003333	amino acid transmembrane transport	1	1	1.0	1	SLC38A9
+GO:0071230	cellular response to amino acid stimulus	1	1	1.0	19	SLC38A9
+GO:0000281	mitotic cytokinesis	2	1	2.0	42	SNX18
+GO:0036089	cleavage furrow formation	2	1	2.0	5	SNX18
+GO:0014037	Schwann cell differentiation	1	1	1.0	1	ADGRG6
+GO:0019933	cAMP-mediated signaling	1	1	1.0	15	ADGRG6
+GO:0042552	myelination	1	1	1.0	6	ADGRG6
+GO:0030208	dermatan sulfate biosynthetic process	2	1	2.0	2	DSE
+GO:0001516	prostaglandin biosynthetic process	4	1	4.0	10	EDN1
+GO:0003100	regulation of systemic arterial blood pressure by endothelin	4	1	4.0	4	EDN1
+GO:0007166	cell surface receptor signaling pathway	4	1	4.0	21	EDN1
+GO:0007267	cell-cell signaling	5	2	2.5	18	EDN1,GJA1
+GO:0010460	positive regulation of heart rate	4	1	4.0	7	EDN1
+GO:0010870	positive regulation of receptor biosynthetic process	4	1	4.0	8	EDN1
+GO:0014824	artery smooth muscle contraction	4	1	4.0	4	EDN1
+GO:0014826	vein smooth muscle contraction	4	1	4.0	5	EDN1
+GO:0030072	peptide hormone secretion	4	1	4.0	2	EDN1
+GO:0030185	nitric oxide transport	4	1	4.0	2	EDN1
+GO:0030593	neutrophil chemotaxis	4	1	4.0	19	EDN1
+GO:0032269	negative regulation of cellular protein metabolic process	4	1	4.0	3	EDN1
+GO:0042313	protein kinase C deactivation	4	1	4.0	1	EDN1
+GO:0046887	positive regulation of hormone secretion	4	1	4.0	2	EDN1
+GO:0048016	inositol phosphate-mediated signaling	4	1	4.0	5	EDN1
+GO:0051771	negative regulation of nitric-oxide synthase biosynthetic process	4	1	4.0	3	EDN1
+GO:0060298	positive regulation of sarcomere organization	4	1	4.0	2	EDN1
+GO:0060585	positive regulation of prostaglandin-endoperoxide synthase activity	4	1	4.0	2	EDN1
+GO:0061051	positive regulation of cell growth involved in cardiac muscle cell development	4	1	4.0	4	EDN1
+GO:0061077	chaperone-mediated protein folding	1	1	1.0	14	FKBP5
+GO:0010644	cell communication by electrical coupling	1	1	1.0	4	GJA1
+GO:0034220	ion transmembrane transport	1	1	1.0	9	GJA1
+GO:0006749	glutathione metabolic process	1	1	1.0	24	GSTA4
+GO:0006805	xenobiotic metabolic process	1	1	1.0	24	GSTA4
+GO:0006383	transcription from RNA polymerase III promoter	2	1	2.0	8	GTF3C6
+GO:0007218	neuropeptide signaling pathway	1	1	1.0	15	HCRTR2
+GO:0051480	regulation of cytosolic calcium ion concentration	1	1	1.0	18	HCRTR2
+GO:0032006	regulation of TOR signaling	1	1	1.0	12	PKHD1
+GO:0051898	negative regulation of protein kinase B signaling	1	1	1.0	28	PKHD1
+GO:0070372	regulation of ERK1 and ERK2 cascade	1	1	1.0	18	PKHD1
+GO:0070936	protein K48-linked ubiquitination	1	1	1.0	50	RNF146
+GO:0090263	positive regulation of canonical Wnt signaling pathway	1	1	1.0	53	RNF146
+GO:0003341	cilium movement	2	1	2.0	22	RSPH4A
+GO:0035082	axoneme assembly	2	1	2.0	4	RSPH4A
+GO:0001916	positive regulation of T cell mediated cytotoxicity	1	1	1.0	11	STX7
+GO:0051640	organelle localization	1	1	1.0	1	STX7
+GO:0070925	organelle assembly	1	1	1.0	1	STX7
+GO:1902685	positive regulation of receptor localization to synapse	1	1	1.0	1	STX7
+GO:1903076	regulation of protein localization to plasma membrane	1	1	1.0	10	STX7
+GO:0010468	regulation of gene expression	2	1	2.0	48	STXBP5
+GO:0030193	regulation of blood coagulation	2	1	2.0	16	STXBP5
+GO:0018345	protein palmitoylation	1	1	1.0	18	ZDHHC14
+GO:0040010	positive regulation of growth rate	1	1	1.0	1	ARMC10
+GO:1902254	negative regulation of intrinsic apoptotic signaling pathway by p53 class mediator	1	1	1.0	4	ARMC10
+GO:0001822	kidney development	2	1	2.0	27	C1GALT1
+GO:0006906	vesicle fusion	5	1	5.0	4	CAV2
+GO:0007088	regulation of mitotic nuclear division	5	1	5.0	10	CAV2
+GO:0008286	insulin receptor signaling pathway	5	1	5.0	20	CAV2
+GO:0016050	vesicle organization	5	1	5.0	7	CAV2
+GO:0019065	receptor-mediated endocytosis of virus by host cell	5	1	5.0	3	CAV2
+GO:0044794	positive regulation by host of viral process	5	1	5.0	6	CAV2
+GO:0048278	vesicle docking	5	1	5.0	2	CAV2
+GO:0060161	positive regulation of dopamine receptor signaling pathway	5	1	5.0	3	CAV2
+GO:0070836	caveola assembly	5	1	5.0	6	CAV2
+GO:0006091	generation of precursor metabolites and energy	1	1	1.0	7	CROT
+GO:0006631	fatty acid metabolic process	1	1	1.0	15	CROT
+GO:0051791	medium-chain fatty acid metabolic process	1	1	1.0	4	CROT
+GO:0016601	Rac protein signal transduction	2	1	2.0	10	ELMO1
+GO:0030036	actin cytoskeleton organization	2	1	2.0	26	ELMO1
+GO:0048870	cell motility	2	1	2.0	14	ELMO1
+GO:0046039	GTP metabolic process	1	1	1.0	10	GIMAP7
+GO:0014912	negative regulation of smooth muscle cell migration	4	2	2.0	8	IGFBP3,TRIB1
+GO:0048662	negative regulation of smooth muscle cell proliferation	4	2	2.0	16	IGFBP3,TRIB1
+GO:0043967	histone H4 acetylation	1	1	1.0	23	ING3
+GO:0043968	histone H2A acetylation	1	1	1.0	14	ING3
+GO:0001886	endothelial cell morphogenesis	4	2	2.0	2	MET,STC1
+GO:0035024	negative regulation of Rho protein signal transduction	5	2	2.5	12	MET,DLC1
+GO:0048754	branching morphogenesis of an epithelial tube	3	1	3.0	7	MET
+GO:0050918	positive chemotaxis	3	1	3.0	13	MET
+GO:0061436	establishment of skin barrier	3	1	3.0	7	MET
+GO:0070495	negative regulation of thrombin-activated receptor signaling pathway	3	1	3.0	3	MET
+GO:0071526	semaphorin-plexin signaling pathway	3	1	3.0	9	MET
+GO:1901299	negative regulation of hydrogen peroxide-mediated programmed cell death	3	1	3.0	2	MET
+GO:1905098	negative regulation of guanyl-nucleotide exchange factor activity	3	1	3.0	3	MET
+GO:2001028	positive regulation of endothelial cell chemotaxis	3	1	3.0	6	MET
+GO:2000377	regulation of reactive oxygen species metabolic process	4	1	4.0	10	STK17A
+GO:0001580	detection of chemical stimulus involved in sensory perception of bitter taste	2	2	1.0	37	TAS2R3,TAS2R41
+GO:0035307	positive regulation of protein dephosphorylation	2	1	2.0	17	DLC1
+GO:1900119	positive regulation of execution phase of apoptosis	2	1	2.0	6	DLC1
+GO:0000188	inactivation of MAPK activity	1	1	1.0	5	DUSP4
+GO:0035335	peptidyl-tyrosine dephosphorylation	1	1	1.0	32	DUSP4
+GO:0035970	peptidyl-threonine dephosphorylation	1	1	1.0	15	DUSP4
+GO:0003222	ventricular trabecula myocardium morphogenesis	1	1	1.0	1	NRG1
+GO:0007169	transmembrane receptor protein tyrosine kinase signaling pathway	1	1	1.0	12	NRG1
+GO:0007171	activation of transmembrane receptor protein tyrosine kinase activity	1	1	1.0	3	NRG1
+GO:0010667	negative regulation of cardiac muscle cell apoptotic process	1	1	1.0	2	NRG1
+GO:0038127	ERBB signaling pathway	1	1	1.0	5	NRG1
+GO:0038129	ERBB3 signaling pathway	1	1	1.0	1	NRG1
+GO:0043497	regulation of protein heterodimerization activity	3	2	1.5	8	NRG1,DAB2IP
+GO:0043624	cellular protein complex disassembly	1	1	1.0	1	NRG1
+GO:0045785	positive regulation of cell adhesion	1	1	1.0	34	NRG1
+GO:0051048	negative regulation of secretion	1	1	1.0	3	NRG1
+GO:0055012	ventricular cardiac muscle cell differentiation	1	1	1.0	1	NRG1
+GO:0060045	positive regulation of cardiac muscle cell proliferation	1	1	1.0	4	NRG1
+GO:0060379	cardiac muscle cell myoblast differentiation	1	1	1.0	1	NRG1
+GO:0060956	endocardial cell differentiation	1	1	1.0	1	NRG1
+GO:0001649	osteoblast differentiation	4	1	4.0	55	SNAI2
+GO:0010839	negative regulation of keratinocyte proliferation	6	2	3.0	7	SNAI2,KLF9
+GO:0010957	negative regulation of vitamin D biosynthetic process	4	1	4.0	3	SNAI2
+GO:0014032	neural crest cell development	4	1	4.0	7	SNAI2
+GO:0032331	negative regulation of chondrocyte differentiation	4	1	4.0	7	SNAI2
+GO:0032642	regulation of chemokine production	4	1	4.0	1	SNAI2
+GO:0035414	negative regulation of catenin import into nucleus	4	1	4.0	8	SNAI2
+GO:0035921	desmosome disassembly	4	1	4.0	1	SNAI2
+GO:0043473	pigmentation	4	1	4.0	4	SNAI2
+GO:0043518	negative regulation of DNA damage response, signal transduction by p53 class mediator	4	1	4.0	12	SNAI2
+GO:0045667	regulation of osteoblast differentiation	4	1	4.0	5	SNAI2
+GO:0060070	canonical Wnt signaling pathway	4	1	4.0	87	SNAI2
+GO:0070563	negative regulation of vitamin D receptor signaling pathway	4	1	4.0	2	SNAI2
+GO:1900387	negative regulation of cell-cell adhesion by negative regulation of transcription from RNA polymerase II promoter	4	1	4.0	3	SNAI2
+GO:1902230	negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage	4	1	4.0	11	SNAI2
+GO:2000810	regulation of bicellular tight junction assembly	4	1	4.0	5	SNAI2
+GO:0003421	growth plate cartilage axis specification	1	1	1.0	1	STC1
+GO:0035988	chondrocyte proliferation	1	1	1.0	2	STC1
+GO:0044070	regulation of anion transport	1	1	1.0	3	STC1
+GO:0051926	negative regulation of calcium ion transport	1	1	1.0	6	STC1
+GO:0086004	regulation of cardiac muscle cell contraction	1	1	1.0	5	STC1
+GO:1903403	negative regulation of renal phosphate excretion	1	1	1.0	1	STC1
+GO:0034976	response to endoplasmic reticulum stress	4	2	2.0	51	TNFRSF10B,CREB3
+GO:0070059	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	1	1	1.0	15	TNFRSF10B
+GO:0071260	cellular response to mechanical stimulus	1	1	1.0	40	TNFRSF10B
+GO:0006469	negative regulation of protein kinase activity	3	1	3.0	34	TRIB1
+GO:0007254	JNK cascade	3	1	3.0	9	TRIB1
+GO:0031665	negative regulation of lipopolysaccharide-mediated signaling pathway	3	1	3.0	9	TRIB1
+GO:0070389	chaperone cofactor-dependent protein refolding	1	1	1.0	7	BAG1
+GO:0001558	regulation of cell growth	3	1	3.0	14	CREB3
+GO:0002230	positive regulation of defense response to virus by host	3	1	3.0	28	CREB3
+GO:0006990	positive regulation of transcription from RNA polymerase II promoter involved in unfolded protein response	3	1	3.0	5	CREB3
+GO:0019043	establishment of viral latency	3	1	3.0	1	CREB3
+GO:0019046	release from viral latency	3	1	3.0	2	CREB3
+GO:0042994	cytoplasmic sequestering of transcription factor	3	1	3.0	3	CREB3
+GO:0090045	positive regulation of deacetylase activity	3	1	3.0	3	CREB3
+GO:1902236	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	3	1	3.0	19	CREB3
+GO:2000326	negative regulation of ligand-dependent nuclear receptor transcription coactivator activity	3	1	3.0	2	CREB3
+GO:0000185	activation of MAPKKK activity	2	1	2.0	6	DAB2IP
+GO:0007257	activation of JUN kinase activity	2	1	2.0	10	DAB2IP
+GO:0008625	extrinsic apoptotic signaling pathway via death domain receptors	2	1	2.0	18	DAB2IP
+GO:0014067	negative regulation of phosphatidylinositol 3-kinase signaling	2	1	2.0	5	DAB2IP
+GO:0030948	negative regulation of vascular endothelial growth factor receptor signaling pathway	2	1	2.0	3	DAB2IP
+GO:0034144	negative regulation of toll-like receptor 4 signaling pathway	2	1	2.0	5	DAB2IP
+GO:0034260	negative regulation of GTPase activity	2	1	2.0	19	DAB2IP
+GO:0035148	tube formation	2	1	2.0	5	DAB2IP
+GO:0035924	cellular response to vascular endothelial growth factor stimulus	2	1	2.0	31	DAB2IP
+GO:0043407	negative regulation of MAP kinase activity	2	1	2.0	24	DAB2IP
+GO:0043553	negative regulation of phosphatidylinositol 3-kinase activity	2	1	2.0	3	DAB2IP
+GO:0044257	cellular protein catabolic process	2	1	2.0	12	DAB2IP
+GO:0046330	positive regulation of JNK cascade	2	1	2.0	40	DAB2IP
+GO:0070317	negative regulation of G0 to G1 transition	2	1	2.0	3	DAB2IP
+GO:0071158	positive regulation of cell cycle arrest	2	1	2.0	20	DAB2IP
+GO:0071901	negative regulation of protein serine/threonine kinase activity	2	1	2.0	8	DAB2IP
+GO:1901800	positive regulation of proteasomal protein catabolic process	2	1	2.0	8	DAB2IP
+GO:1903363	negative regulation of cellular protein catabolic process	2	1	2.0	6	DAB2IP
+GO:0035735	intraciliary transport involved in cilium assembly	1	1	1.0	6	IFT74
+GO:0007623	circadian rhythm	2	1	2.0	6	KLF9
+GO:0071387	cellular response to cortisol stimulus	2	1	2.0	1	KLF9
+GO:0042775	mitochondrial ATP synthesis coupled electron transport	1	1	1.0	6	NDUFB6
+GO:0043392	negative regulation of DNA binding	12	1	12.0	16	NFIB
+GO:0010828	positive regulation of glucose transport	1	1	1.0	3	NR4A3
+GO:0048660	regulation of smooth muscle cell proliferation	1	1	1.0	6	NR4A3
+GO:1900625	positive regulation of monocyte aggregation	1	1	1.0	3	NR4A3
+GO:0007051	spindle organization	1	1	1.0	13	NTMT1
+GO:0016571	histone methylation	1	1	1.0	11	NTMT1
+GO:0018013	N-terminal peptidyl-glycine methylation	1	1	1.0	1	NTMT1
+GO:0018016	N-terminal peptidyl-proline dimethylation	1	1	1.0	2	NTMT1
+GO:0035572	N-terminal peptidyl-serine dimethylation	1	1	1.0	1	NTMT1
+GO:0035573	N-terminal peptidyl-serine trimethylation	1	1	1.0	1	NTMT1
+GO:0032485	regulation of Ral protein signal transduction	1	1	1.0	1	RALGPS1
+GO:0050892	intestinal absorption	1	1	1.0	3	TJP2
+GO:0090557	establishment of endothelial intestinal barrier	1	1	1.0	12	TJP2
+GO:0090559	regulation of membrane permeability	1	1	1.0	3	TJP2
+GO:0031123	RNA 3'-end processing	1	1	1.0	5	ZCCHC6
+GO:0071044	histone mRNA catabolic process	1	1	1.0	14	ZCCHC6
+GO:0010972	negative regulation of G2/M transition of mitotic cell cycle	1	1	1.0	3	FHL1
+GO:1901016	regulation of potassium ion transmembrane transporter activity	1	1	1.0	5	FHL1
+GO:2000134	negative regulation of G1/S transition of mitotic cell cycle	1	1	1.0	16	FHL1
