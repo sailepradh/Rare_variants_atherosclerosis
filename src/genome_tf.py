@@ -9,7 +9,11 @@ enhancer from the datasets.
 
 Usage
 
-python genome_tf.py P_E_Int_rare.txt ../data/P_E_Interaction_Rare.bed ../data/DNS.CD.HUVEC.bed ../data/His_CDV_2.bed ../data/Oth.CD.HUVEC.bed  -o ../data/tmp.txt
+python genome_tf.py P_E.txt P_E.bed DNS.CD.HUVEC.bed His_CDV_2.bed Oth.CD.HUVEC.bed -o P_E_Tf.txt
+
+
+python genome_tf.py ../results/Interactor_variant/Rare_P_E.txt ../data/P_E_Interaction_Rare.bed ../data/DNS.CD.HUVEC.bed ../data/His_CDV_2.bed ../data/Oth.CD.HUVEC.bed  -o ../results/Rare_P_E_TFs.txt
+
 '''
 
 import sys
@@ -43,9 +47,6 @@ def Main():
     parser.add_argument("interactbedfile", help = "Interaction bedfile vcfmanipulation script")
     parser.add_argument("dnase", help = "goterm downloaded from quickgo")
     parser.add_argument("hist", help = "Interaction outputfile genome and vcfmanipulation script")
-    parser.add_argument("TF", help = "Interaction outputfile genome and vcfmanipulation script")
-    parser.add_argument("-R", "--Rare", help ="Rare variants outputted", action='store')
-    parser.add_argument("-LF", "--Lowfreq", help ="LowFrequency outputted", action='store', default=None)
     parser.add_argument("-o", "--output", help ="output of interaction files", action='store', default=None)
     args = parser.parse_args()
 
