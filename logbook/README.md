@@ -1,0 +1,1 @@
+## Here I will provide all jupyter notebook of work that are carried out. Additionally, I will also provide weekly updates meeting notes with supervisors on the project. The idea is this folder and jupyter notebook will provide an idea of unbiased work that has been carried out.
