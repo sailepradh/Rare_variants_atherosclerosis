@@ -1,0 +1,144 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage{float}
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{Functional annotation of Rare and Low Frequency variants of Swedish population on putative enhancer regions identified by HiCAP methods}
+%\author{The Author}
+\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+
+\section*{Abstract}
+
+GWAS have identified most of variants associated to complex disease to non coding variants. The functional impact of these variants are poorly understood. The non-coding variants are studied using Hi-C and its variant methods such as HiCAP which brings genome into close proximity leading to regulating of gene expression. In current study, we have identified common, low frequency and rare variants one of HiCAP data on two replicates of Bicuspid aortic valve (BAV) heart disease. The current analysis shows that Rare variants are enriched in promoter-mediated putative enhancer. Upon further annotation of these regions with non coding functional markers of DNA hypersensitivity, Histone modification and transcription factor binding sites from public data set shows  $23\%$ these enhancers are enriched with at least one of these markers.  Furthermore, GO term analysis on enhancers with all of these markers points to one of regulation of endothelial tube morphogenesis genes as one with high enhancer changes.
+
+\section{Introduction}
+Currently genome wide association studies are targeted to common variants that are present in higher frequency in a population, which had lead into hypothesis of common variant common disease hypothesis. However most of common variants identified so far are within the non-coding regions that are difficult to link with disease. On the other end of spectrum, rare variants: less common in population, are less studied due to large sample requirement and higher cost of sequencing. However, recent studies have shown these genetic variants have higher effect on common diseases as well. 
+
+One of such method to study these variant using HiCap (variant of Hi-C ) methods, that identifies promoter-anchored interaction between variants that are thousand of bases apart from each other. Thus providing connectivity information from GWAS variants with potential genes. HiCAP method generates a genome-wide maps of promoter-anchored chromatin interactions with close to single-enhancer resolution. (cite HiCap methods).  Enhancers are the cis acting regulatory elements of non coding genome which are essential for expression genes. Thus, it would be variation within enhancer region could potential have impact on gene regulation thereby influencing complex diseases.
+
+BAV are the most common type of aortic anomaly that are major common cause of heart disease in adults. BAV are heritable traits with high influencing males than females , however genetics is poorly understood with no clear one gene influencing disease, therby speculating effect of different environmental, genetic and epigenetic factor playing the role in disease.
+
+In the current study we have imputed genetic variants from recently published 1000 Swedish population in promoter mediated putative enhancer from HiCAP. The genetic profile of rare and low frequency variants in interaction data from  are from replicates from BAV heart disease patient. We observed overlap of these enhancer with genetic variants to different functional elements from Chipseq atlas for HUVEC cell line which are primary endothelial cell-lines. 
+
+
+
+\section{Materials and methods}
+
+\subsection{Data acquistion}
+Whole genome sequencing variant file (vcf) was accessed from swedgen frequency (cite...) data (https://swegen-exac.nbis.se downloads) of v2. As reported these dataset includes the highest quality genetic map of Swedish population
+From the resulting vcf file, the Snp data set was filtered using a vcftools (cite..) in order to separate  snp and indel. Additionally, the variants tagged as "PASS" from GATK (cite..) was further processed . Further the dark listed genome region (Heng li) was removed from subsequent analysis.
+
+Additionally , for functional annotation of enhancer regions chipseq data for DNAise hypersensitivity experiments (DNAise HS), H3Kme1  and H327Ac , and transcription factor experiments for HUVEC dataset was accessed.  The threshold for experiments was set up at 100 and all the peak files were downloaded.  The DNAise sites have lost their condensed chromatin and are exposed for expression. H3Kme1 and H327Ac are the active markers of  putative enhancers and transcription factor are protein complexes that bind to genome for gene expression. These non coding DNA elements  are putatively functionality markers of potential enhancers. 
+
+
+\subsection{Definition of Rare and low frequency variant in the population}
+
+
+The variants from the Swedish population was classified into three separate categories i.e Rare, Low frequncy and common based on the allele frequency  in the population The variant classification were on the frequency such that variant with MAF\textgreater{}0.05 were classified as "Common", Low frequency with 0.05 \textless{} MAF \textless{} 0.01, Rare variants \textless{} 0.01. However in the rare frequency variants were have removed that private variants that were present within one individual either in homozygous or heterozygous condition
+
+
+\subsection{HI-CAP interaction dataset}
+
+HiCAP experiments on two replicates from BAV patients were performed. The data were preprocessed with each Promoter\-Enhancer  $(P\-E)$ interaction having at greater than three supporting pairs of p-value $< 0.001$ as set in earlier experiments. The final output of the $P\-E$ interaction data consists of information of Promoter in genome, corresponding genes, enhancer position in genome and supporting pair information for each interaction in  two replicates. 
+
+Following the interaction dataset, I developed customized python script $VCFmanipulation.py$  which takes the interaction file and annotates and subsets the enhancer and promoter regions into the rare, low frequency and common regions. Furthermore, I also wrote customized python script $genome_tf.py$ further annotates the DNA elements in these regions.
+
+
+\subsection {GO term enrichment status of P\_E interaction mediated genes}
+
+GO term of biological processes (BP) that were curated from the GO database were down from QuickGo (cite..) . Additionally while downloading  the  BP date we considered only the terms that were fulfilled the criteria of manual experiment evidence given in the
+QuickGO database. We used this criteria in order to limit or gene ontologies analysis to relatively functional genes which have the experimental validation. A customized python $Gene\_ontology.py$ was made in for the following analysis as well.
+
+
+\section{Results}
+
+\subsection{Mapped read in each platform }
+
+\subsection{Average number of called variants.}
+
+\subsection{Average coverage of called variants}
+
+\subsection{Average genotype quality of called variants}
+
+\subsection{Discordant variants}
+
+
+\section{Discussion}
+\newpage
+\bibliographystyle{ieeetr}
+\bibliography{wgsbib}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
