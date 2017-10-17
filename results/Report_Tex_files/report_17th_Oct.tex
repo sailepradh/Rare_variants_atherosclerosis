@@ -30,7 +30,7 @@
 \usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
 \usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
 % These packages are all incorporated in the memoir class to one degree or another...
-
+ \usepackage{longtable} % longtable support required by pandoc >1.10
 %%% HEADERS & FOOTERS
 \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
 \pagestyle{fancy} % options: empty , plain , fancy
@@ -48,13 +48,16 @@
 \usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\usepackage[table,xcdraw]{xcolor}
 
 %%% END Article customizations
 
 %%% The "real" document content comes below...
 
 \title{Functional annotation of Rare and Low Frequency variants of Swedish population on putative enhancer regions identified by HiCAP methods}
-%\author{The Author}
+\author{Sailendra Pradhananga\\
+Science for Life Laboratory/School of Biotechnology\\
+Royal KTH institute of Technology (KTH), Swden}
 \date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
 
@@ -107,18 +110,92 @@ QuickGO database. We used this criteria in order to limit or gene ontologies ana
 
 \section{Results}
 
-\subsection{Mapped read in each platform }
+\subsection{Rare variants are enriched in putative Promoter - Enhancer Interaction}
+There was 35million variants that were tagged as "Pass" all 1000 Swedish genome population. From that, we have identified around 30.2 million SNPs and 4.4 million indels in in the population that are tagged as "Pass" from GATK filter.
 
-\subsection{Average number of called variants.}
+We used the customized script *Vcfmaniouation* to overlap the passed SNPs with the enhancer regions. The preprocessed promoter-enhancer list was contained 33,323 unique enhancers regions in Bicuspid aortic valve (BAV cells. The data contains of promoter regions and corresponding enhancer regions of 2 replicates from BAV cell. We found on average of 20.38 and 13.93 interaction enhancers change in replicate1 and replicate2 respectively. As shown in figure 1, we identified  distribution of different enhancer length. 
+  
+\begin{longtable}[]{@{}lcr@{}}
+\toprule
+ Enhancer\_length & Counts
+type\tabularnewline
+\midrule
+\endhead
+$< 50$kb   & 82591\tabularnewline
+$50-500$kb   & 20700\tabularnewline
+$500$kb $-1$Mb &  3334\tabularnewline
+ $> 1$MB & 1030\tabularnewline
+\bottomrule
+\end{longtable}
 
-\subsection{Average coverage of called variants}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=\textwidth]{length_distribution}
 
-\subsection{Average genotype quality of called variants}
+\caption{Mapping status in both platform. {\bf A} Raw reads counts in WES and WGS. {\bf B}  Duplicated reads in each sample in WES and WGS}
+ \label{duplcated}
+\end{center}
+\end{figure}
 
-\subsection{Discordant variants}
+This length distribution depicts that most of our putative enhancers are within the range of 50-1Mb base pairs which is in par with the Hi-C methods
 
+We identified  22,055, 14403 and 22,144 putative enhancer regions in our interaction dataset with common, low-frequency and rare variants. Furthermore, we identified in total 56,891 common , 24,049 low-frequency and  47,281 rare variants enriched in these enhancer regions as shown in table 2. Interestinly, our enhancer regions have been enriched with rare variants from the population.
+
+\begin{longtable}[]{@{}lcr@{}}
+\toprule
+Variant class & Enhancer with variants & Total variants
+type\tabularnewline
+\midrule
+\endhead
+Common & 22055 & 56891\tabularnewline
+Low Frequency & 14403 & 24049\tabularnewline
+Rare & 22144 & 47281\tabularnewline
+\bottomrule
+\end{longtable}
+
+
+\subsection{Status of non coding functional DNA elements of variants embedded enhancer regions}
+
+We observed the following non coding functional elements in each of three separated annotated dataset table 2 and figure 2
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{../Enhancer_elements.png}
+\caption{figures 3}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\label{my-label}
+\begin{tabular}{@{}lllllllll@{}}
+\toprule
+\rowcolor[HTML]{BBDAFF} 
+\multicolumn{1}{c}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{333333} class}} & {\color[HTML]{333333} at\_least\_one} & {\color[HTML]{333333} DNS} & {\color[HTML]{333333} HM} & {\color[HTML]{333333} TFs} & {\color[HTML]{333333} DNS+HM} & {\color[HTML]{333333} DNS+TFs} & {\color[HTML]{333333} HM+TFs} & {\color[HTML]{333333} ALL} \\ \midrule
+\cellcolor[HTML]{FFFFFF}Common & 5087 & 3350 & 3029 & 3416 & 2042 & 2487 & 1744 & 1565 \\
+\cellcolor[HTML]{FFFFFF}Low Frequency & 3407 & 2276 & 2038 & 2356 & 1393 & 1736 & 1229 & 1095 \\
+\cellcolor[HTML]{FFFFFF}Rare & 5178 & 3440 & 3097 & 3524 & 2114 & 2587 & 1820 & 1638 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+From the above chart, it can been said that we have at least one of functional markers in about (5087/22055) 23\% of putative enhancer in all classes of variants. However, it has to be considered that we took into consideration one of cell line and these are the markers specific to cell type. Most interesting , we still find at least 1000 putatively, functional enhancers in all classes in all. It would be interesting to observe these functional enhancer regions and dig into Rare and Low frequency variants in these region.Furthermore, these are result only from overlapping with one dataset. This data has to be randomized and overlapped so as to find the putative p-values to our non coding functional elements.
+
+\subsection{GO term enrichment status of P\_E interaction mediated genes}
+
+
+We found 2 enriched GO Terms at descending order of enhancer per gene and number of enhancer mediated\_promoter gene \textgreater{} 2 in rare and Low frequency variants i.e GO:1902894 regulation of pri-miRNA
+transcription from RNA polymerase II promoter GO:1901509 regulation of
+endothelial tube morphogenesis.
 
 \section{Discussion}
+
+
+High enrichment of rare variants in putative enhancer with allele count
+less than 5
+
+Based on the defination of different enhancer such as H327ac and H3Kme1
+we didnt found high enrichment, it might be as we only looked into one
+type of cell type which doesn't matched the real primary cell type.
+
 \newpage
 \bibliographystyle{ieeetr}
 \bibliography{wgsbib}
