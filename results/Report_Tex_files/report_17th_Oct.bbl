@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{swegen}
+Adam Ameur, Johan Dahlberg, Pall Olason, Francesco Vezzi, Robert Karlsson,
+  Marcel Martin, Johan Viklund, Andreas~Kusalananda K{\"a}h{\"a}ri, P{\"a}r
+  Lundin, Huiwen Che, et~al.
+\newblock Swegen: a whole-genome data resource of genetic variability in a
+  cross-section of the swedish population.
+\newblock {\em European journal of human genetics: EJHG}, 2017.
+
+\bibitem{gatk2}
+Mark~A. DePristo, Eric Banks, Ryan Poplin, Kiran~V. Garimella, Jared~R.
+  Maguire, Christopher Hartl, Anthony~A. Philippakis, Guillermo del Angel,
+  Manuel~A. Rivas, Matt Hanna, Aaron McKenna, Tim~J. Fennell, Andrew~M.
+  Kernytsky, Andrey~Y. Sivachenko, Kristian Cibulskis, Stacey~B. Gabriel, David
+  Altshuler, and Mark~J. Daly.
+\newblock {A framework for variation discovery and genotyping using
+  next-generation DNA sequencing data.}
+\newblock {\em Nature genetics}, 43(5):491--498, May 2011.
+
+\bibitem{li2014toward}
+Heng Li.
+\newblock Toward better understanding of artifacts in variant calling from
+  high-coverage samples.
+\newblock {\em Bioinformatics}, 30(20):2843--2851, 2014.
+
+\bibitem{Ohta}
+T~Ringo~Oki, S;~Ohta.
+\newblock Chip-atlas, 2015 (accessed Sep20, 2017).
+
+\bibitem{quickgo}
+David Binns, Emily Dimmer, Rachael Huntley, Daniel Barrell, Claire O'donovan,
+  and Rolf Apweiler.
+\newblock Quickgo: a web-based tool for gene ontology searching.
+\newblock {\em Bioinformatics}, 25(22):3045--3046, 2009.
+
+\bibitem{mora2015loop}
+Antonio Mora, Geir~Kjetil Sandve, Odd~Stokke Gabrielsen, and Ragnhild Eskeland.
+\newblock In the loop: promoter--enhancer interactions and bioinformatics.
+\newblock {\em Briefings in bioinformatics}, 17(6):980--995, 2015.
+
+\bibitem{grisar2011endothelial}
+Johannes~C Grisar, Francois Haddad, Fatemeh~A Gomari, and Joseph~C Wu.
+\newblock Endothelial progenitor cells in cardiovascular disease and chronic
+  inflammation: from biomarker to therapeutic agent.
+\newblock {\em Biomarkers}, 5(6):731--744, 2011.
+
+\end{thebibliography}
