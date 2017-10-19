@@ -4,7 +4,8 @@
 % This is a simple template for a LaTeX document using the "article" class.
 % See "book", "report", "letter" for other types of document.
 
-\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\documentclass[10pt]{article} % use larger type; default would be 10pt
 
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
 \usepackage{float}
@@ -20,7 +21,6 @@
 %   read geometry.pdf for detailed page layout information
 
 \usepackage{graphicx} % support the \includegraphics command and options
-
 
 % \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
 
@@ -50,12 +50,12 @@
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 \usepackage[table,xcdraw]{xcolor}
-
+\usepackage{cite}
 %%% END Article customizations
 
 %%% The "real" document content comes below...
 
-\title{Functional annotation of Rare and Low Frequency variants of Swedish population on putative enhancer regions identified by HiCAP methods}
+\title{Functional Annotation of Rare and Low Frequency variants on putative enhancer regions identified by HiCap methods}
 \author{Sailendra Pradhananga\\
 Science for Life Laboratory/School of Biotechnology\\
 Royal KTH institute of Technology (KTH), Swden}
@@ -68,50 +68,49 @@ Royal KTH institute of Technology (KTH), Swden}
 
 \section*{Abstract}
 
-GWAS have identified most of variants associated to complex disease to non coding variants. The functional impact of these variants are poorly understood. The non-coding variants are studied using Hi-C and its variant methods such as HiCAP which brings genome into close proximity leading to regulating of gene expression. In current study, we have identified common, low frequency and rare variants one of HiCAP data on two replicates of Bicuspid aortic valve (BAV) heart disease. The current analysis shows that Rare variants are enriched in promoter-mediated putative enhancer. Upon further annotation of these regions with non coding functional markers of DNA hypersensitivity, Histone modification and transcription factor binding sites from public data set shows  $23\%$ these enhancers are enriched with at least one of these markers.  Furthermore, GO term analysis on enhancers with all of these markers points to one of regulation of endothelial tube morphogenesis genes as one with high enhancer changes.
+Enhancers are non coding DNA elements essential for regulation of genes \cite{shlyueva2014transcriptional}. However they are functional after genome looping which brings distant regions in closer proximity to promoter of genes. Variants in these regions are already implicated in complex diseases. In current study, we have identified common, low frequency and rare variants on HiCap data on two replicates of Bicuspid aortic valve (BAV) heart disease in promoter enhancer interaction genome. The study shows that rare variants are enriched in promoter-mediated putative enhancer. Further annotation of these regions with non coding functional elements with HUVEC cell-line  data set reveals at least  $23\%$ these enhancers are overlapped with at least one of noncoding markers. Gene Ontology term analysis  with promoter enhancer interaction (PEI) genes reveals regulation of endothelial tube morphogenesis as one of the top GO term enriched with Low and rare frequency variants.
 
 \section{Introduction}
-Currently genome wide association studies are targeted to common variants that are present in higher frequency in a population, which had lead into hypothesis of common variant common disease hypothesis. However most of common variants identified so far are within the non-coding regions that are difficult to link with disease. On the other end of spectrum, rare variants: less common in population, are less studied due to large sample requirement and higher cost of sequencing. However, recent studies have shown these genetic variants have higher effect on common diseases as well. 
+Chip-based genome wide association studies  on complex diseased targeted common variants (frequency $>$ 0.05) which had lead to hypothesis of common variant common disease hypothesis \cite{cirulli2010uncovering} However most of common variants identified within the non-coding are unable to explain causality to complex  disease. On the other end of frequency spectrum, rare and Low frequency  variants, are less studied due to large sample requirement and higher cost of sequencing. Recent studies have shown these genetic variants have higher effect on common diseases as well \cite{cirulli2010uncovering, bomba2017impact, saint}. Furthermore, these  non coding  rare and common variants  have shown to disrupt gene regulation mechanism  in promoter-enhancer regions.\cite{chatterjee2016enhancer, rusu2017type} .
 
-One of such method to study these variant using HiCap (variant of Hi-C ) methods, that identifies promoter-anchored interaction between variants that are thousand of bases apart from each other. Thus providing connectivity information from GWAS variants with potential genes. HiCAP method generates a genome-wide maps of promoter-anchored chromatin interactions with close to single-enhancer resolution. (cite HiCap methods).  Enhancers are the cis acting regulatory elements of non coding genome which are essential for expression genes. Thus, it would be variation within enhancer region could potential have impact on gene regulation thereby influencing complex diseases.
+One of method to study of studying looping genome is HiCap (variant of Hi-C) \cite{sahlen2015}. The method identifies promoter-anchored interaction between genomic regions that spatially, however are thousand kilo bases apart. Additionally, these interaction provides connectivity information of for example enhancers with potential genes.. In relation  to other competing technologies, HiCap method generates a genome-wide maps of promoter-anchored chromatin interactions with close to single-enhancer resolution.  Enhancers are the cis acting regulatory elements of non coding genome which are essential for regulation of genes transcription. Since enhancer are functionally important region of non coding genome, variations in these regions are of considerable importance in complex diseases  \cite{krijger2016regulation,zhang2015non}
 
-BAV are the most common type of aortic anomaly that are major common cause of heart disease in adults. BAV are heritable traits with high influencing males than females , however genetics is poorly understood with no clear one gene influencing disease, therby speculating effect of different environmental, genetic and epigenetic factor playing the role in disease.
+Biscupid aortic valve (BAV) disease  is most common type of aortic anomaly in adults \cite{siu2010bicuspid}. BAV are heritable traits with high influencing males than females, however genetics is poorly understood with no clear one gene influencing disease, thereby speculating effect of different environmental, genetic and epigenetic factor playing the role in disease \cite{siu2010bicuspid,mordi2012bicuspid}. There has been considerable interest to find genetic markers in understanding the prognosis of disease. 
 
-In the current study we have imputed genetic variants from recently published 1000 Swedish population in promoter mediated putative enhancer from HiCAP. The genetic profile of rare and low frequency variants in interaction data from  are from replicates from BAV heart disease patient. We observed overlap of these enhancer with genetic variants to different functional elements from Chipseq atlas for HUVEC cell line which are primary endothelial cell-lines. 
-
+In the current study, we have imputed genetic variants from recently published 1000 Swedish population  \cite{swegen}  in PEI  genomic region from HiCap data of BAV patients. The genetic profile of rare and low frequency variants in PEI  are from two technical replicates from BAV heart disease patient. We observed overlap of these enhancer with genetic variants to different functional elements from Chipseq atlas for primary endothelial HUVEC cell lines.
 
 
 \section{Materials and methods}
 
 \subsection{Data acquisition}
-Whole genome sequencing variant file (vcf) was accessed from SweGen \cite{swegen}  frequency data (https://swegen-exac.nbis.se downloads) of v2. As reported these dataset includes the highest quality genetic map of Swedish population. From the resulting vcf file, the SNP data set was filtered using a vcftools \cite{danecek2011variaDNAsent} in order to separate  snp and indel. Additionally, the variants tagged as "PASS" from GATK \cite{gatk2} was further processed . Further the dark listed genome region \cite{li2014toward} was removed from subsequent analysis.
 
-Additionally , for functional annotation of enhancer regions chipseq atlas \cite{Ohta} data  for DNA hypersensitivity experiments (DNAse HS), H3Kme1  and H327Ac , and transcription factor experiments for HUVEC dataset was accessed. The threshold for experiments was set up at 100 and all the peak files were downloaded.  The DNAse sites have lost their condensed chromatin and are exposed for expression. H3Kme1 and H327Ac are the active markers of  putative enhancers and transcription factor are protein complexes that bind to genome for gene expression. These non coding DNA elements  are putatively functionality markers of potential enhancers. 
+Whole genome sequencing variant file (vcf) was accessed from SweGen \cite{swegen} database website \cite{Sewfreq}. As reported these dataset includes the highest quality genetic map of Swedish population. From the resulting vcf file, the SNP data set was filtered using a vcftools \cite{danecek2011variant} in order to separate  genetic variant into single nucleotide polymorphism (SNP) and  insertion/deletion (INDEL) type. Additionally,  only the variants tagged as "PASS" from GATK \cite{gatk2} was further processed . Additionally, dubious genome listed in human genome \cite{li2014toward}  was removed from subsequent analysis.
+
+Additionally , for functional annotation of enhancer regions chipseq atlas \cite{Ohta} data  for DNA hypersensitivity experiments (DNAse HS), H3Kme1  and H327Ac , and transcription factor experiments for HUVEC dataset was accessed. The threshold for experiments was set up at 100 and all the peak files were downloaded.  The DHS have lost their condensed chromatin and are exposed for expression. H3Kme1 and H327Ac are the active markers of  putative enhancers and transcription factor are protein complexes that bind to genome for gene expression. These non coding DNA elements  are putatively functionality markers of potential enhancers. 
 
 
 \subsection{Definition of Rare and low frequency variant in the population}
 
+The variants from the Swedish population was classified into three separate categories i.e Rare, Low frequency and Common based on the allele frequency  in Swedish  population The variant classification were on the frequency such that variant with MAF\textgreater{}0.05 were classified as "Common", Low frequency with 0.05 \textless{} MAF \textless{} 0.01, Rare variants \textless{} 0.01. However in the rare frequency variants were have removed that private variants that were present within one individual either in homozygous or heterozygous condition
 
-The variants from the Swedish population was classified into three separate categories i.e Rare, Low frequncy and common based on the allele frequency  in the population The variant classification were on the frequency such that variant with MAF\textgreater{}0.05 were classified as "Common", Low frequency with 0.05 \textless{} MAF \textless{} 0.01, Rare variants \textless{} 0.01. However in the rare frequency variants were have removed that private variants that were present within one individual either in homozygous or heterozygous condition
 
 
-\subsection{HI-CAP interaction dataset}
+\subsection{HiCap interaction dataset}
 
-HiCAP experiments on two replicates from BAV patients were performed. The data were preprocessed with each Promoter\-Enhancer  $(P\-E)$ interaction having at greater than three supporting pairs of p-value $< 0.001$ as set in earlier experiments. The final output of the $P\-E$ interaction data consists of information of Promoter in genome, corresponding genes, enhancer position in genome and supporting pair information for each interaction in  two replicates. 
-
-Following the interaction dataset, I developed customized python script $VCFmanipulation.py$  which takes the interaction file and annotates and subsets the enhancer and promoter regions into the rare, low frequency and common regions. Furthermore, I also wrote customized python script $genome_tf.py$ further annotates the DNA elements in these regions.
-
+HiCap experiments on two replicates from BAV patients were performed. The data were preprocessed with each Promoter$-$Enhancer Interaction (PEI)  pair having at greater than three supporting pairs of p-value $< 0.001$  in earlier experiments. The final output of the PEI data consists of information of promoter and corresponding genes, putative  enhancer position in genome and supporting pair information for each interaction in  two replicates. 
+Following the interaction dataset, a customized python script \textit{VCFmanipulation.py}  was developed . The script  takes the interaction file  and vcffile as input and subsets PEI regions into the rare, low frequency and common regions. Furthermore, the output from this file is inputted to  python script \textit{genome\_tf.py} further annotates the DNA elements in these regions based on annotation files donwnloaded from Chipseq atlas. 
 
 \subsection {GO term enrichment status of P\_E interaction mediated genes}
 
-GO term of biological processes (BP) that were curated from the GO database were down from QuickGo \cite{quickgo} . Additionally while downloading  the  BP date we considered only the terms that were fulfilled the criteria of manual experiment evidence given in the QuickGO database. We used this criteria in order to limit or gene ontologies analysis to relatively functional genes which have the experimental validation. A customized python $Gene\_ontology.py$ was made in for the following analysis as well.
+GO term of biological processes (BP) that were curated from the GO database were down from QuickGo \cite{quickgo} . Additionally while downloading  the  BP date, we considered only the terms that were fulfilled the criteria of manual experiment evidence given in the QuickGO database. We used this criteria in order to limit or gene ontologies analysis to relatively functional genes which have the experimental validation. A customized python \textit{Gene\_ontology.py} was made in for the following analysis as well.
 
 \section{Results}
 
 \subsection{Rare variants are enriched in putative Promoter - Enhancer Interaction}
 There was 35million variants that were tagged as "Pass" all 1000 Swedish genome population. From that, we have identified around 30.2 million SNPs and 4.4 million indels in in the population that are tagged as "Pass" from GATK filter.
 
-We used the customized script *Vcfmaniouation* to overlap the passed SNPs with the enhancer regions. The preprocessed promoter-enhancer list was contained 33,323 unique enhancers regions in Bicuspid aortic valve (BAV cells. The data contains of promoter regions and corresponding enhancer regions of 2 replicates from BAV cell. We found on average of 20.38 and 13.93 interaction enhancers change in replicate1 and replicate2 respectively. As shown in figure 1, we identified  distribution of different enhancer length. 
+The preprocessed promoter-enhancer list contained 33,323 unique enhancers regions in Bicuspid aortic valve. This data contains of promoter regions and corresponding enhancer regions of 2 replicates from BAV cell. We found on average of 20.38 and 13.93 interaction enhancers change in replicate1 and replicate2 respectively.We observed that enhancer had different length distribution as shown in table~\ref{table1} and fig~\ref{duplcated}. This length distribution depicts that most of our putative enhancers are within the range of 50-1Mb base pairs which is in par with the Hi-C methods
+
   
 \begin{longtable}[]{@{}lcr@{}}
 \toprule
@@ -124,20 +123,21 @@ $50-500$kb   & 20700\tabularnewline
 $500$kb $-1$Mb &  3334\tabularnewline
  $> 1$MB & 1030\tabularnewline
 \bottomrule
+\caption{\small Number of enhancer of different length}
+\label{table1}
 \end{longtable}
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=\textwidth]{length_distribution}
-
-\caption{Mapping status in both platform. {\bf A} Raw reads counts in WES and WGS. {\bf B}  Duplicated reads in each sample in WES and WGS}
- \label{duplcated}
+\includegraphics[width=0.9\textwidth]{length_distribution}
+\caption{\small Distribution of Enhancer length on PEI dataset. Most of enhancer was between 50 Kb$-$ 1Mb in length}
+\label{duplcated}
 \end{center}
 \end{figure}
 
-This length distribution depicts that most of our putative enhancers are within the range of 50-1Mb base pairs which is in par with the Hi-C methods
 
-We identified  22,055, 14403 and 22,144 putative enhancer regions in our interaction dataset with common, low-frequency and rare variants. Furthermore, we identified in total 56,891 common , 24,049 low-frequency and  47,281 rare variants enriched in these enhancer regions as shown in table 2. Interestinly, our enhancer regions have been enriched with rare variants from the population.
+
+We identified  22,055, 14403 and 22,144 putative enhancer regions in our interaction dataset with common, low-frequency and rare variants respectively . Furthermore, we identified in total 56,891 common , 24,049 low-frequency and  47,281 rare variants enriched in these enhancer regions as shown in table~\ref{table2} . Interestingly, our enhancer regions have been enriched with rare variants from Swedish population as compared to other variant class fig~\ref{fig2}.
 
 \begin{longtable}[]{@{}lcr@{}}
 \toprule
@@ -149,22 +149,25 @@ Common & 22055 & 56891\tabularnewline
 Low Frequency & 14403 & 24049\tabularnewline
 Rare & 22144 & 47281\tabularnewline
 \bottomrule
+\caption{\small Number of different class of variants in PEI enhancers}
+\label{table2}
 \end{longtable}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{Distibution_allelecount.png}
+\caption{\small Distribution of different variant class in PEI. The number of allele count in Swefreq Database in x$-$axis and count in y$-$axis. Rare variants are enriched with the allele count $<$ 5.}
+\label{fig2}
+\end{figure}
+
 
 
 \subsection{Status of non coding functional DNA elements of variants embedded enhancer regions}
 
-We observed the following non coding functional elements in each of three separated annotated dataset table 2 and figure 2
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth]{../Enhancer_elements.png}
-\caption{figures 3}
-\end{figure}
+Upon overlapping with the chipseq atlas experimental data with different DNA elements, we all the DNA elements are present in our enhancer list in all classes as shown in table~\ref{table3}. 
 
 \begin{table}[H]
 \centering
-\label{my-label}
 \begin{tabular}{@{}lllllllll@{}}
 \toprule
 \rowcolor[HTML]{BBDAFF} 
@@ -173,33 +176,47 @@ We observed the following non coding functional elements in each of three separa
 \cellcolor[HTML]{FFFFFF}Low Frequency & 3407 & 2276 & 2038 & 2356 & 1393 & 1736 & 1229 & 1095 \\
 \cellcolor[HTML]{FFFFFF}Rare & 5178 & 3440 & 3097 & 3524 & 2114 & 2587 & 1820 & 1638 \\ \bottomrule
 \end{tabular}
+\caption{\small Different DNA elements in enhancer of variant classes Common, Low frequency and Rare}
+\label{table3}
 \end{table}
 
-From the above chart, it can been said that we have at least one of functional markers in about (5087/22055) 23\% of putative enhancer in all classes of variants. However, it has to be considered that we took into consideration one of cell line and these are the markers specific to cell type. Most interesting , we still find at least 1000 putatively, functional enhancers in all classes in all. It would be interesting to observe these functional enhancer regions and dig into Rare and Low frequency variants in these region.Furthermore, these are result only from overlapping with one dataset. This data has to be randomized and overlapped so as to find the putative p-values to our non coding functional elements.
-
-\subsection{GO term enrichment status of P\_E interaction mediated genes}
+Additionally, when we compared types of DNA elements we observed hat we have at least one of functional markers in about (5087/22055) 23\% of putative enhancer in all classes of variants as shown in fig~\ref{fig3}. However, it has to be considered that we took into consideration one of cell line and these are the markers specific to cell type. Most interesting , we still find at least 1000 putatively, functional enhancers in all variant classes. It would be interesting to observe these functional enhancer regions and dig into Rare and Low frequency variants in these region.Furthermore, these are result only from overlapping with one dataset. This data has to be randomized and overlapped so as to find the putative p-values to our non coding functional elements.
 
 
-We found 2 enriched GO Terms at descending order of enhancer per gene and number of enhancer mediated\_promoter gene \textgreater{} 2 in rare and Low frequency variants i.e GO:1902894 regulation of pri-miRNA
-transcription from RNA polymerase II promoter GO:1901509 regulation of endothelial tube morphogenesis.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{Enhancer_elements.png}
+\caption{\small Distribution of different DNA elements in enhancer with variant classes}
+\label{fig3}
+\end{figure}
+
+
+
+
+\subsection{GO term enrichment status of PEI mediated genes on variant with all functional markers }
+
+We sub selected the enhancers with all the functional marks as we had observed earlier. Upon Gene Ontology analysis of PEI mediated genes on PEI of variant class rare and low frequency on such enhancers resulted some interesting observations. We found 2 enriched GO Terms at PEI more than two. The top GO enriched terms were 1) \textit {GO:1902894 regulation of pri-miRNA
+transcription from RNA polymerase II promoter} and 2) \textit {GO:1901509 regulation of endothelial tube morphogenesis}. 
 
 \section{Discussion}
 
-In the current report we have presented the status of genetic variants identified from Swedish population in the putative enhancer genomic regions mediated by promoter-enhancer mediated interaction (PEI). These PEIs were called using HiCAP experiments in replicates of BAV heart disease patient.  Our analysis depicts that rare variants are enriched within our enhancer regions which was as expected since these rare variants also contains the variants which might be presented in one individuals as we haven't corrected for homogenous individuals. However we still find variants which are presented at least greater than five allele counts . 
+In the current report we have presented the status of genetic variants identified from Swedish population in the putative enhancer genomic regions mediated by promoter-enhancer mediated interaction (PEI). These PEIs were called using HiCap experiments in replicates of BAV heart disease patient.  Our analysis depicts that rare variants are enriched within our enhancer regions which was as expected since these rare variants also contains the variants which might be presented in one individuals as we haven't corrected for homogenous individuals. However we still find variants which are presented at least greater than five allele counts . 
 
-Based on the definition rare, low frequency and common variants, we annotated our enhancer with active enhancers marks. We used publicly available HUVEC dataset for chipseq atlas on DNAse Hypersensitivity. These regions provided the accessibility of genome for  further processing . In the same enhancers regions we annotated with active enhancers histone marks (H327ac and H3Kme1) and transcription factor binding sites. The formation of complex between TFs, enhancers and promoter have been already reported as fundamental mechanism for regulation of trancription \cite{mora2015loop}.  At the current analysis, we find more than enhancer regions which have been all of these functional marks. This is still a lower number and tested within one type of cellline. Based on the this result, we are unable to claim whether these are functional or not. Furthermore, from this primary analysis, we have to calculate enrichment status based on random distance mediated enhancer.
+Based on the definition rare, low frequency and common variants, we annotated our enhancer with active enhancers marks. We used publicly available HUVEC dataset for chipseq atlas on DNAse Hypersensitivity. These regions provided the accessibility of genome for  further processing . In the same enhancers regions we annotated with active enhancers histone marks (H327ac and H3Kme1) and transcription factor binding sites. The formation of complex between TFs, enhancers and promoter have been already reported as fundamental mechanism for regulation of trancription \cite{mora2015loop}.  At the current state of analysis, we find more than  1000 enhancer regions which have been all of these functional marks. This is still a lower number and overlapped within one type of cell-line. Based on the this result, we can regards these enhancers are functional . Furthermore, from this primary analysis, we have to calculate enrichment status based on random distance mediated enhancer.
 
-GO-Term analysis have represented regulation of endothelial tube morphogenesis as one of GO with high enhancer activity in rare and low frequency class of variants. Endothelial progenitor cells have been associated as biomarker of cardiovascular disease \cite{grisar2011endothelial}.  There has been elucidation of endothelial cells in relation to inflammation in vascular disorders. Thus, the genes associated i.e FOXP1 and FGF1 and their corresponding enhancer could have functional implication in understanding disease prognosis. However these genes and GO term analysis needs further processing.
+GO-Term analysis have represented regulation of endothelial tube morphogenesis as one of GO with high enhancer activity in rare and low frequency class of variants. Endothelial progenitor cells have been associated as biomarker of cardiovascular disease \cite{grisar2011endothelial}.  There has been elucidation of endothelial cells in relation to inflammation in vascular disorders. Thus, the genes associated i.e \textit{FOXP1 }and  \textit{FGF1} and their corresponding enhancer could have functional implication in understanding disease prognosis. However these genes and GO term analysis needs further processing on experimental validation.
 
 
 \section{Conclusion}
 
-We have used currently available large scale genetic frequency data in homogenous Swedish population to identify the promoter mediated enhancer enriched with rare variants. Upon further annotation of these enhancer with functional markers lead to identification of interesting GO-terms. Although HICAP based enhancer analysis is currently fully mature, we believe that preliminary results points that rare variants could potentially driving the complex phenotypes such as BAV heart disease.
+We have used currently available large scale genetic frequency data in homogenous Swedish population to identify the promoter mediated enhancer enriched with rare variants. Upon further annotation of these enhancer with functional markers lead to identification of interesting GO-terms. Although HiCap based enhancer analysis is currently fully mature, we believe that preliminary results points that rare variants could potentially driving the complex phenotypes such as BAV heart disease.
+
+
 
 \newpage
 
-
-\bibliographystyle{unsrt}
+\bibliographystyle{IEEEtran}
+%\bibliographystyle{unsrt}
 \bibliography{report_17th_Oct}
 
 
