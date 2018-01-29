@@ -42,11 +42,12 @@ def compAndret(list1,list2,list3):
 
 
 def Main():
-    parser = argparse.ArgumentParser(description="Manipulation of interaction files of rare GoTERM")
+    parser = argparse.ArgumentParser(description="Manipulation of interaction files for annotating functional elements from HUVEC cell lines")
     parser.add_argument("interactionfile", help = "Interaction outputfile from vcfmanipulation script")
     parser.add_argument("interactbedfile", help = "Interaction bedfile vcfmanipulation script")
-    parser.add_argument("dnase", help = "goterm downloaded from quickgo")
-    parser.add_argument("hist", help = "Interaction outputfile genome and vcfmanipulation script")
+    parser.add_argument("dnase", help = "DNAase HS bed files")
+    parser.add_argument("hist", help = "histone modification bed format from HUVEC")
+    parser.add_argument("TF", help = "transcription_files of bed format from HUVEC")
     parser.add_argument("-o", "--output", help ="output of interaction files", action='store', default=None)
     args = parser.parse_args()
 
